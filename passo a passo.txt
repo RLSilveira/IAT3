@@ -1,0 +1,11 @@
+-> extrair lexemas
+-> pegar lexemas que server (4 tipos) (pow)
+-> bag of work - (N lexemas que mais aparecem)
+-> 80% treino *mesma bag of work
+
+montar arquivos arp.
+
+compara 
+	unigrama
+	bigrama
+	trigrama

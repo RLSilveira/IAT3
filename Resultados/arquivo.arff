@@ -1,0 +1,46 @@
+@relation Arquivo
+@atribute não integer
+@atribute time integer
+@atribute jogo integer
+@atribute mais integer
+@atribute @diariogaucho integer
+@atribute br integer
+@atribute Criciúma integer
+@atribute muito integer
+@atribute Inter integer
+@atribute negatividade integer
+@atribute droga integer
+@atribute jovem integer
+@atribute maconha integer
+@atribute crack integer
+@atribute agente integer
+@atribute rapaz integer
+@atribute Capital integer
+@atribute policial integer
+@atribute já integer
+@atribute onde integer
+@atribute filho integer
+@atribute ano integer
+@atribute Gina integer
+@atribute contêiner integer
+@atribute vaga integer
+@atribute amanda integer
+@atribute munhoz integer
+@atribute trabalhador integer
+@atribute férias integer
+@atribute período integer
+@atribute civil integer
+@atribute interesse integer
+@atribute substitutivo integer
+@atribute construção integer
+@atribute operador integer
+@atribute classe {Esporte,Policia,ProblemaNosso,EspacoTrabalhador}
+@data Arquivo
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Esporte
+1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Esporte
+0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Policia
+1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, Policia
+1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, ProblemaNosso
+1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, ProblemaNosso
+0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, EspacoTrabalhador
+1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, EspacoTrabalhador
