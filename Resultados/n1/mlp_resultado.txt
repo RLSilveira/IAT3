@@ -1,0 +1,608 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Arquivo
+Instances:    294
+Attributes:   28
+              nÃ£o
+              br
+              @diariogaucho
+              time
+              jogo
+              Inter
+              mais
+              tÃ©cnico
+              GrÃªmio
+              como
+              ano
+              casa
+              homem
+              trÃ¡fico
+              homicÃ­dio
+              morador
+              jÃ¡
+              prefeitura
+              @diÃ¡riogaÃºcho
+              local
+              problema
+              vaga
+              curso
+              R$
+              categoria
+              dia
+              trabalho
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.7718762809307093
+    Node 4    -2.883726210326942
+    Node 5    -2.8448793876594625
+    Node 6    2.4209001042394975
+    Node 7    -0.3603440682477625
+    Node 8    -1.0101409284051073
+    Node 9    1.3988320525927331
+    Node 10    -0.5740013906572453
+    Node 11    1.1465187665401784
+    Node 12    -1.734261128038826
+    Node 13    -1.1261883916409714
+    Node 14    1.5270088506393091
+    Node 15    -2.1966523167383976
+    Node 16    1.2378686186845613
+    Node 17    0.5460603275991717
+    Node 18    1.231020884942314
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.935731775143732
+    Node 4    -0.17433995607900957
+    Node 5    -0.7274735925749286
+    Node 6    -0.5575876929121578
+    Node 7    3.032870894147997
+    Node 8    2.8142500654636122
+    Node 9    1.192919475600711
+    Node 10    0.33558256672394443
+    Node 11    -1.2312976721600761
+    Node 12    0.8752202724650852
+    Node 13    1.5963460645538956
+    Node 14    -2.6988374316330344
+    Node 15    -1.4650306582891979
+    Node 16    -1.8248531849000074
+    Node 17    -2.179144858508897
+    Node 18    -2.3902762828183572
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.8010433058525717
+    Node 4    0.0298244720030553
+    Node 5    0.837379128070844
+    Node 6    -1.3008886177557397
+    Node 7    -1.9906112304397692
+    Node 8    -1.6200746129554988
+    Node 9    -2.8369683578384985
+    Node 10    2.0437267501045073
+    Node 11    -1.0107003338112908
+    Node 12    -2.601816202948458
+    Node 13    -0.5430558633140089
+    Node 14    -2.729574978749076
+    Node 15    2.144510906068464
+    Node 16    1.1569660380710922
+    Node 17    -1.387144484703439
+    Node 18    1.5560576884472477
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.7267238141345331
+    Node 4    1.2944214863670231
+    Node 5    1.0774375013755357
+    Node 6    -2.0622330668648647
+    Node 7    -2.0852334941295863
+    Node 8    -1.323005861772526
+    Node 9    -1.4996085433203332
+    Node 10    -3.3355286999429103
+    Node 11    -0.3591723495805717
+    Node 12    2.0764441711416266
+    Node 13    -1.4102234342553872
+    Node 14    2.2801097356969415
+    Node 15    -0.01636089307261118
+    Node 16    -2.3601551303629202
+    Node 17    1.3541289990924121
+    Node 18    -2.087717216767867
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.04303277843997056
+    Attrib nÃ£o    -0.1981816200112472
+    Attrib br    0.4469539926784021
+    Attrib @diariogaucho    0.22183707736401242
+    Attrib time    -0.7679935482312158
+    Attrib jogo    -0.9746753646715679
+    Attrib Inter    -0.37419329465615286
+    Attrib mais    -0.25568137388329787
+    Attrib tÃ©cnico    -0.494330129626326
+    Attrib GrÃªmio    -0.66155826281384
+    Attrib como    0.09494101272653127
+    Attrib ano    0.48565793353648234
+    Attrib casa    0.139899959806139
+    Attrib homem    0.2545728277273412
+    Attrib trÃ¡fico    0.0994891254254155
+    Attrib homicÃ­dio    0.17385199563753095
+    Attrib morador    0.1908932840515229
+    Attrib jÃ¡    -0.09413177533908541
+    Attrib prefeitura    -0.012838299920216926
+    Attrib @diÃ¡riogaÃºcho    -0.21727079925686982
+    Attrib local    0.5542878134254462
+    Attrib problema    0.03505397057323286
+    Attrib vaga    0.06367656728354644
+    Attrib curso    0.29727971929936736
+    Attrib R$    0.10315953369336327
+    Attrib categoria    1.392935533993708
+    Attrib dia    -0.4742989058638069
+    Attrib trabalho    0.30383470197004775
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.050199554848176405
+    Attrib nÃ£o    -0.08995344428284063
+    Attrib br    0.37333371104397284
+    Attrib @diariogaucho    0.036958666050097615
+    Attrib time    -0.6835190715530709
+    Attrib jogo    -0.7357811811254343
+    Attrib Inter    -0.30724105056165874
+    Attrib mais    -0.22461226766762807
+    Attrib tÃ©cnico    -0.30894356158373976
+    Attrib GrÃªmio    -0.583943313139371
+    Attrib como    -0.05241427849022877
+    Attrib ano    0.3783962929021596
+    Attrib casa    0.045762924654746476
+    Attrib homem    0.16773586801351287
+    Attrib trÃ¡fico    0.012135752102733427
+    Attrib homicÃ­dio    0.11597803965040525
+    Attrib morador    0.04868704489021006
+    Attrib jÃ¡    -0.06335156422627324
+    Attrib prefeitura    0.19794284300952483
+    Attrib @diÃ¡riogaÃºcho    0.18788141088571253
+    Attrib local    0.3983739544789232
+    Attrib problema    0.1944591602795902
+    Attrib vaga    0.037184764749595776
+    Attrib curso    0.18068559187408598
+    Attrib R$    0.0394601968015967
+    Attrib categoria    1.701703829678498
+    Attrib dia    -0.38746853432219663
+    Attrib trabalho    0.24589882740120936
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.0943075400345969
+    Attrib nÃ£o    0.16519639258429672
+    Attrib br    -0.3862433704204968
+    Attrib @diariogaucho    -0.08598549755189407
+    Attrib time    0.8683632514232682
+    Attrib jogo    1.0461101880300345
+    Attrib Inter    0.3707608007630285
+    Attrib mais    0.28121881469592525
+    Attrib tÃ©cnico    0.5119344648966178
+    Attrib GrÃªmio    0.6954792453082533
+    Attrib como    -0.01927227811218985
+    Attrib ano    -0.5495927185728973
+    Attrib casa    -0.062163546821513684
+    Attrib homem    -0.15634106916329954
+    Attrib trÃ¡fico    0.008871950011635035
+    Attrib homicÃ­dio    -0.09098314484305269
+    Attrib morador    -0.13473145042834403
+    Attrib jÃ¡    0.035686310905560216
+    Attrib prefeitura    -0.09122112387320598
+    Attrib @diÃ¡riogaÃºcho    -0.08755936561494196
+    Attrib local    -0.5493186362304501
+    Attrib problema    -0.1835672977666291
+    Attrib vaga    0.028185696163549327
+    Attrib curso    -0.16713237633929698
+    Attrib R$    -0.13288380655952728
+    Attrib categoria    -1.6201709127224442
+    Attrib dia    0.49266308577299767
+    Attrib trabalho    -0.29227120043258425
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.11701557192068575
+    Attrib nÃ£o    -0.33034015118416155
+    Attrib br    0.029613155426512397
+    Attrib @diariogaucho    0.4757241992883778
+    Attrib time    -0.2853051173500846
+    Attrib jogo    -0.39588717555742226
+    Attrib Inter    -0.02105610188631609
+    Attrib mais    -0.053654532118263695
+    Attrib tÃ©cnico    -0.19037332692868508
+    Attrib GrÃªmio    -0.11569647555719759
+    Attrib como    0.11119951406825707
+    Attrib ano    0.2228777580418262
+    Attrib casa    0.23370040768653463
+    Attrib homem    0.7412532570899266
+    Attrib trÃ¡fico    0.4961696005735961
+    Attrib homicÃ­dio    0.5104026466504576
+    Attrib morador    0.3391591623789265
+    Attrib jÃ¡    -0.04039168989882257
+    Attrib prefeitura    -0.32880613583216506
+    Attrib @diÃ¡riogaÃºcho    -0.6092396815623781
+    Attrib local    0.438309348564941
+    Attrib problema    -0.016251051746923414
+    Attrib vaga    -0.1505287037167664
+    Attrib curso    -0.10631427815012166
+    Attrib R$    0.4511523037064947
+    Attrib categoria    -2.4078532117442943
+    Attrib dia    -0.5302330611073258
+    Attrib trabalho    -0.04367135468311268
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.2642071822569988
+    Attrib nÃ£o    -0.479769995796417
+    Attrib br    -0.09001109678135906
+    Attrib @diariogaucho    0.42540541021959005
+    Attrib time    -0.6203973795367692
+    Attrib jogo    -0.6587219957185387
+    Attrib Inter    -0.13949940396728933
+    Attrib mais    -0.21406197580812247
+    Attrib tÃ©cnico    -0.32191724541054817
+    Attrib GrÃªmio    -0.29651867179236335
+    Attrib como    0.0955857440072767
+    Attrib ano    0.3743391975106818
+    Attrib casa    0.32257103970745826
+    Attrib homem    0.8740459414491375
+    Attrib trÃ¡fico    0.578637742940222
+    Attrib homicÃ­dio    0.630218367273771
+    Attrib morador    0.4240566664906614
+    Attrib jÃ¡    -0.011409847041682897
+    Attrib prefeitura    -0.22159046648208916
+    Attrib @diÃ¡riogaÃºcho    -0.5340834144560264
+    Attrib local    0.5660913148229468
+    Attrib problema    -0.05976868333158838
+    Attrib vaga    -0.10943112436399748
+    Attrib curso    -0.015734609950115358
+    Attrib R$    0.557824779229693
+    Attrib categoria    -2.016488614401437
+    Attrib dia    -0.6899644150243582
+    Attrib trabalho    0.01319033468089082
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.09745200836633233
+    Attrib nÃ£o    -0.027834726457359633
+    Attrib br    -0.050999015733104
+    Attrib @diariogaucho    0.10491806426071118
+    Attrib time    0.3245845236730863
+    Attrib jogo    0.20036375396495765
+    Attrib Inter    0.10015391692656436
+    Attrib mais    0.16749916478549962
+    Attrib tÃ©cnico    0.17115523629877186
+    Attrib GrÃªmio    0.3630987737735375
+    Attrib como    0.059075500685979984
+    Attrib ano    0.008571443488910918
+    Attrib casa    0.20886116893671047
+    Attrib homem    0.11536589059098373
+    Attrib trÃ¡fico    0.03906558887062024
+    Attrib homicÃ­dio    -0.011015911487128055
+    Attrib morador    0.05440499975641793
+    Attrib jÃ¡    -0.07837069079377589
+    Attrib prefeitura    -0.4242100626124276
+    Attrib @diÃ¡riogaÃºcho    -0.8000518714017903
+    Attrib local    -0.02958747225832796
+    Attrib problema    -0.6293016771556434
+    Attrib vaga    -0.0358897493573154
+    Attrib curso    -0.1050222308406502
+    Attrib R$    -0.02759160778986473
+    Attrib categoria    -2.131856432385768
+    Attrib dia    0.08399907664465663
+    Attrib trabalho    -0.1363034126907432
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.3084486613653553
+    Attrib nÃ£o    0.21782546203422068
+    Attrib br    0.16013011692886395
+    Attrib @diariogaucho    -0.10386524658371571
+    Attrib time    -0.6795423003169802
+    Attrib jogo    0.2702811918366154
+    Attrib Inter    -0.2736461641292422
+    Attrib mais    -0.2323969418362321
+    Attrib tÃ©cnico    0.256627164847898
+    Attrib GrÃªmio    -0.21096338711804127
+    Attrib como    -0.2982648375963021
+    Attrib ano    0.5656397201203366
+    Attrib casa    0.5456819219277002
+    Attrib homem    0.18840287716280912
+    Attrib trÃ¡fico    -0.0498390140987694
+    Attrib homicÃ­dio    0.005245507893732055
+    Attrib morador    0.6599526127180164
+    Attrib jÃ¡    0.45975464861045073
+    Attrib prefeitura    0.43902635139878343
+    Attrib @diÃ¡riogaÃºcho    1.1249755058930446
+    Attrib local    0.38933072065888064
+    Attrib problema    0.8246943911428526
+    Attrib vaga    -0.8243761886721571
+    Attrib curso    -1.1269319557049058
+    Attrib R$    -0.13870487877473855
+    Attrib categoria    -1.2162461071765227
+    Attrib dia    0.08533939694857179
+    Attrib trabalho    -0.6349384641981504
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.05832751432751513
+    Attrib nÃ£o    0.034988853066589234
+    Attrib br    -0.20565120564968883
+    Attrib @diariogaucho    -0.16107863545502954
+    Attrib time    0.7149485373839866
+    Attrib jogo    0.6946447783585827
+    Attrib Inter    0.28714767216591003
+    Attrib mais    0.22262662941561925
+    Attrib tÃ©cnico    0.4189110839040386
+    Attrib GrÃªmio    0.49274113527661784
+    Attrib como    0.02406964316911213
+    Attrib ano    -0.4833467583647024
+    Attrib casa    -0.11821151098547678
+    Attrib homem    -0.3257106649389951
+    Attrib trÃ¡fico    -0.18716368990840793
+    Attrib homicÃ­dio    -0.1872688611631413
+    Attrib morador    -0.2896071715932663
+    Attrib jÃ¡    -0.10318239132780763
+    Attrib prefeitura    -0.0887811551045029
+    Attrib @diÃ¡riogaÃºcho    -0.12437239753941566
+    Attrib local    -0.5609668587083806
+    Attrib problema    -0.385601005313011
+    Attrib vaga    0.3286205365876213
+    Attrib curso    0.1395657334037476
+    Attrib R$    -0.2266049771616759
+    Attrib categoria    -0.28190655441911583
+    Attrib dia    0.33140608292475077
+    Attrib trabalho    -0.059486999892607834
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.3107038618100248
+    Attrib nÃ£o    -0.5951379569367345
+    Attrib br    0.14090509770246107
+    Attrib @diariogaucho    0.510031521192715
+    Attrib time    -0.27968875206055877
+    Attrib jogo    -1.088050193012835
+    Attrib Inter    -0.2067860565952531
+    Attrib mais    -0.14851324950358255
+    Attrib tÃ©cnico    -0.7243287574831557
+    Attrib GrÃªmio    -0.49627743952683645
+    Attrib como    0.20501825272368676
+    Attrib ano    0.13976341581784468
+    Attrib casa    0.060440762702260994
+    Attrib homem    0.6491255278966923
+    Attrib trÃ¡fico    0.4839204929222281
+    Attrib homicÃ­dio    0.529593735040219
+    Attrib morador    -0.2048304222897
+    Attrib jÃ¡    -0.5254206865370609
+    Attrib prefeitura    -0.6453850406078776
+    Attrib @diÃ¡riogaÃºcho    -1.5049648756581513
+    Attrib local    0.18613026514280365
+    Attrib problema    -0.4991509820233046
+    Attrib vaga    0.5696916894546319
+    Attrib curso    0.9096492637669028
+    Attrib R$    0.49315471998200067
+    Attrib categoria    0.32890710159529146
+    Attrib dia    -0.57511443143886
+    Attrib trabalho    0.5074570535476506
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.07775562931756383
+    Attrib nÃ£o    -0.2930192602058171
+    Attrib br    -0.025293301662048722
+    Attrib @diariogaucho    0.20612038571008448
+    Attrib time    -0.5730065925281448
+    Attrib jogo    -0.5405352195409151
+    Attrib Inter    -0.09043834947549691
+    Attrib mais    -0.16586511771238663
+    Attrib tÃ©cnico    -0.17093386712472386
+    Attrib GrÃªmio    -0.26787757526887684
+    Attrib como    0.05304957573934421
+    Attrib ano    0.4137684153737814
+    Attrib casa    0.2827297532027142
+    Attrib homem    0.633053112408478
+    Attrib trÃ¡fico    0.415786796533423
+    Attrib homicÃ­dio    0.46668853994662707
+    Attrib morador    0.4051037331561982
+    Attrib jÃ¡    -0.00862643022301316
+    Attrib prefeitura    0.032044541939707925
+    Attrib @diÃ¡riogaÃºcho    -0.05951015149722263
+    Attrib local    0.42948520308163785
+    Attrib problema    0.08448670093215767
+    Attrib vaga    -0.30587571938297825
+    Attrib curso    -0.203141028176402
+    Attrib R$    0.36961130619240096
+    Attrib categoria    -1.347868054763775
+    Attrib dia    -0.49283014687431553
+    Attrib trabalho    -0.014048439993750089
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.0041846982328910855
+    Attrib nÃ£o    -0.022982704788289243
+    Attrib br    -0.08373981502590482
+    Attrib @diariogaucho    -0.05845722286432887
+    Attrib time    1.2022745092049167
+    Attrib jogo    0.7009611119572228
+    Attrib Inter    0.4409471940650465
+    Attrib mais    0.39778312676173766
+    Attrib tÃ©cnico    0.4774376235512667
+    Attrib GrÃªmio    0.6645614105767605
+    Attrib como    0.2044616314907285
+    Attrib ano    -0.9989280056804887
+    Attrib casa    -0.4263923687304094
+    Attrib homem    -0.6830545051106265
+    Attrib trÃ¡fico    -0.38202201911095424
+    Attrib homicÃ­dio    -0.5207284534529554
+    Attrib morador    -0.7849893830167696
+    Attrib jÃ¡    -0.3339075488909527
+    Attrib prefeitura    -0.4612652961981738
+    Attrib @diÃ¡riogaÃºcho    -1.0872865404295915
+    Attrib local    -0.6971006271860813
+    Attrib problema    -1.316789291505843
+    Attrib vaga    0.9873114914550347
+    Attrib curso    1.0327906468789885
+    Attrib R$    -0.5097440127036491
+    Attrib categoria    1.0934580088597872
+    Attrib dia    0.5926471763079433
+    Attrib trabalho    0.521187343145601
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.06162147001637199
+    Attrib nÃ£o    -0.03607189511203003
+    Attrib br    0.09976284285352503
+    Attrib @diariogaucho    -0.05368500385063584
+    Attrib time    -0.4564192138945375
+    Attrib jogo    -0.11228067312340444
+    Attrib Inter    -0.10812506343551681
+    Attrib mais    -0.34062329433795935
+    Attrib tÃ©cnico    0.01743779696201002
+    Attrib GrÃªmio    -0.31387609116543536
+    Attrib como    -0.32139204305748864
+    Attrib ano    0.11150839975355756
+    Attrib casa    -0.025319765984409555
+    Attrib homem    0.07958641054138124
+    Attrib trÃ¡fico    0.002057781793767799
+    Attrib homicÃ­dio    0.1797655012690987
+    Attrib morador    0.05988925344295376
+    Attrib jÃ¡    0.14777831361074195
+    Attrib prefeitura    0.46457328952699334
+    Attrib @diÃ¡riogaÃºcho    0.8918788270398111
+    Attrib local    0.14678187884607438
+    Attrib problema    0.7089388115249782
+    Attrib vaga    -0.07507331759779823
+    Attrib curso    -0.048664015733390846
+    Attrib R$    0.012855635058128681
+    Attrib categoria    1.677998888280097
+    Attrib dia    -0.15926723960436204
+    Attrib trabalho    0.030522553476257968
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    0.31882952361764244
+    Attrib nÃ£o    0.5303757026407304
+    Attrib br    -0.11774264889255721
+    Attrib @diariogaucho    -0.4972430916755641
+    Attrib time    0.4320310319274424
+    Attrib jogo    1.0741507011361942
+    Attrib Inter    0.28283227037236663
+    Attrib mais    0.2837979129891115
+    Attrib tÃ©cnico    0.692788041531083
+    Attrib GrÃªmio    0.5270321735256083
+    Attrib como    -0.1349020564045322
+    Attrib ano    -0.19521521540422518
+    Attrib casa    0.016131607066762366
+    Attrib homem    -0.6999946574743453
+    Attrib trÃ¡fico    -0.5212547259416982
+    Attrib homicÃ­dio    -0.47797590001925305
+    Attrib morador    0.20534421515145374
+    Attrib jÃ¡    0.4535074080396427
+    Attrib prefeitura    0.5679719246333885
+    Attrib @diÃ¡riogaÃºcho    1.3035120820350612
+    Attrib local    -0.1921194369480549
+    Attrib problema    0.3447148980301844
+    Attrib vaga    -0.4815388070218986
+    Attrib curso    -0.7927956366148926
+    Attrib R$    -0.48457984018076383
+    Attrib categoria    -0.2570452181403451
+    Attrib dia    0.6167824739594929
+    Attrib trabalho    -0.4460300964174729
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    0.007139331208115803
+    Attrib nÃ£o    -0.016695849353215542
+    Attrib br    0.03571820125472579
+    Attrib @diariogaucho    0.0053827435471206575
+    Attrib time    0.8268717912002067
+    Attrib jogo    0.5597810957442486
+    Attrib Inter    0.2689595678337256
+    Attrib mais    0.20762637997430292
+    Attrib tÃ©cnico    0.29807060572924016
+    Attrib GrÃªmio    0.4623509236642791
+    Attrib como    0.013830464498619334
+    Attrib ano    -0.646290641379819
+    Attrib casa    -0.27121054204814204
+    Attrib homem    -0.5071420089407916
+    Attrib trÃ¡fico    -0.32251674113729634
+    Attrib homicÃ­dio    -0.29909231983548884
+    Attrib morador    -0.615541635144042
+    Attrib jÃ¡    -0.21518067677754235
+    Attrib prefeitura    -0.3108029770862985
+    Attrib @diÃ¡riogaÃºcho    -0.6062946470416724
+    Attrib local    -0.5665315283389935
+    Attrib problema    -0.7249147802674009
+    Attrib vaga    0.6234457639047113
+    Attrib curso    0.6387170607504216
+    Attrib R$    -0.29553791431359233
+    Attrib categoria    1.013022243938981
+    Attrib dia    0.3495782106094182
+    Attrib trabalho    0.3045235115400417
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.3102712340841981
+    Attrib nÃ£o    0.5984626227157122
+    Attrib br    -0.10099232792599812
+    Attrib @diariogaucho    -0.5312476817662491
+    Attrib time    0.6144126353362098
+    Attrib jogo    1.1752556624466308
+    Attrib Inter    0.30475536531622893
+    Attrib mais    0.25192563072065177
+    Attrib tÃ©cnico    0.712375445034516
+    Attrib GrÃªmio    0.5745717828653076
+    Attrib como    -0.1436607440199964
+    Attrib ano    -0.21426474889463898
+    Attrib casa    -0.03471246027632049
+    Attrib homem    -0.8073949357293969
+    Attrib trÃ¡fico    -0.5578238818170034
+    Attrib homicÃ­dio    -0.5454309794629889
+    Attrib morador    0.06055573933221199
+    Attrib jÃ¡    0.42515314903703416
+    Attrib prefeitura    0.675147439819212
+    Attrib @diÃ¡riogaÃºcho    1.4263743611484943
+    Attrib local    -0.3335875465495365
+    Attrib problema    0.319470490361232
+    Attrib vaga    -0.5345345081082212
+    Attrib curso    -0.7793554352581077
+    Attrib R$    -0.5013146301166725
+    Attrib categoria    0.05966771067641866
+    Attrib dia    0.574769505478907
+    Attrib trabalho    -0.40478022227975946
+Class Esporte
+    Input
+    Node 0
+Class Policia
+    Input
+    Node 1
+Class ProblemaNosso
+    Input
+    Node 2
+Class EspacoTrabalhador
+    Input
+    Node 3
+
+
+Time taken to build model: 1.36 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          41               93.1818 %
+Incorrectly Classified Instances         3                6.8182 %
+Kappa statistic                          0.9091
+Mean absolute error                      0.0354
+Root mean squared error                  0.1589
+Relative absolute error                  9.4428 %
+Root relative squared error             36.608  %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,030    0,917      1,000    0,957      0,943    1,000     1,000     Esporte
+                 0,909    0,030    0,909      0,909    0,909      0,879    0,997     0,992     Policia
+                 0,909    0,000    1,000      0,909    0,952      0,939    1,000     1,000     ProblemaNosso
+                 0,909    0,030    0,909      0,909    0,909      0,879    0,945     0,934     EspacoTrabalhador
+Weighted Avg.    0,932    0,023    0,934      0,932    0,932      0,910    0,986     0,982     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 11  0  0  0 |  a = Esporte
+  1 10  0  0 |  b = Policia
+  0  0 10  1 |  c = ProblemaNosso
+  0  1  0 10 |  d = EspacoTrabalhador
+

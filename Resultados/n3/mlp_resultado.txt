@@ -1,0 +1,967 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Arquivo
+Instances:    294
+Attributes:   37
+              categoria de base
+              a respeito de
+              em relaÃ§Ã£o a
+              final de semana
+              Fome de gol
+              departamento de futebol
+              com exceÃ§Ã£o de
+              em busca de
+              jogo de ontem
+              dia a dia
+              trÃ¡fico de droga
+              boca de fumo
+              a tiro em
+              por volta de
+              em frente a
+              tentativa de homicÃ­dio
+              ponto de trÃ¡fico
+              de acordo com
+              de droga em
+              pedra de crack
+              dono de casa
+              rede de esgoto
+              assessoria de imprensa
+              em funÃ§Ã£o de
+              prefeitura de ViamÃ£o
+              em dia de
+              dia de chuva
+              por meio de
+              por espaÃ§o de
+              mercado de trabalho
+              carteira de trabalho
+              curso gratuito de
+              pessoa com deficiÃªncia
+              comprovante de residÃªncia
+              auxiliar de produÃ§Ã£o
+              de serviÃ§o geral
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.32122583971371066
+    Node 4    -0.3688904376471469
+    Node 5    0.5739734144462643
+    Node 6    -0.15554762898010646
+    Node 7    -1.3839138601620014
+    Node 8    -1.7267381477742298
+    Node 9    -0.34597104122409084
+    Node 10    -1.9772401185395292
+    Node 11    -0.246653064493895
+    Node 12    -2.0896085926070107
+    Node 13    -0.5502955805183745
+    Node 14    -1.0355272145496521
+    Node 15    -2.180081602889819
+    Node 16    -0.5551874342917157
+    Node 17    -4.061210805753429
+    Node 18    -0.19089434101198668
+    Node 19    -0.6576767114596139
+    Node 20    -2.593199874434424
+    Node 21    -3.579237711549783
+    Node 22    -1.3083640996234605
+    Node 23    4.436622349744749
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.049063360033889
+    Node 4    -0.2932326328788439
+    Node 5    -2.9253570024805464
+    Node 6    -0.2504886447000084
+    Node 7    -0.9954032283952892
+    Node 8    3.393205121085743
+    Node 9    -0.21823995061490326
+    Node 10    -0.2641518440555131
+    Node 11    -0.11401978875595653
+    Node 12    -2.427668277220346
+    Node 13    -0.33094341808697714
+    Node 14    -0.8019771872672118
+    Node 15    -0.11057098088722228
+    Node 16    -0.6513322749426036
+    Node 17    6.410538383086578
+    Node 18    0.2478647338659105
+    Node 19    -0.3649911357035031
+    Node 20    3.129422425148016
+    Node 21    -3.1728991642946136
+    Node 22    -0.384739190251384
+    Node 23    -3.9589663184183035
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.094754695419993
+    Node 4    -0.5172933005314642
+    Node 5    1.3659466913972884
+    Node 6    -0.5705364405216521
+    Node 7    -1.574411298807308
+    Node 8    -2.352506458888107
+    Node 9    -0.3760690997101506
+    Node 10    1.6086336777812666
+    Node 11    -0.12048964618082372
+    Node 12    2.9526869717887894
+    Node 13    -0.9034172593854284
+    Node 14    -0.4135319067237884
+    Node 15    2.852036769948018
+    Node 16    -0.08089065836047563
+    Node 17    -3.2282530731509937
+    Node 18    -0.5903450959998762
+    Node 19    -1.23342344813025
+    Node 20    -1.4067888132273776
+    Node 21    -4.218567880693125
+    Node 22    1.7424757830394486
+    Node 23    -2.3356095977206768
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.0154534515218605
+    Node 4    -1.04046033519853
+    Node 5    -0.004784180120986955
+    Node 6    0.07513900355715031
+    Node 7    2.2190151565856846
+    Node 8    -1.048894990797571
+    Node 9    0.3459450809209999
+    Node 10    0.15039970248778597
+    Node 11    -0.24325039167942564
+    Node 12    -2.2212042082560246
+    Node 13    0.4203131531325733
+    Node 14    1.1988361158627907
+    Node 15    -2.334787237930619
+    Node 16    -0.5561825092533501
+    Node 17    -3.550747474810638
+    Node 18    -0.08639346910833572
+    Node 19    0.7565144045302107
+    Node 20    -1.1212396711242305
+    Node 21    6.562363962765307
+    Node 22    -2.5583621283478832
+    Node 23    -2.4876704845960527
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.002455712267308483
+    Attrib categoria de base    -0.06389095692853919
+    Attrib a respeito de    0.06525666326649213
+    Attrib em relaÃ§Ã£o a    0.49010431048009107
+    Attrib final de semana    -0.015428547635839993
+    Attrib Fome de gol    0.14922207331359064
+    Attrib departamento de futebol    0.11135380949480594
+    Attrib com exceÃ§Ã£o de    0.07155235372269324
+    Attrib em busca de    0.119894216723003
+    Attrib jogo de ontem    0.1287729475840513
+    Attrib dia a dia    -0.15312420580540287
+    Attrib trÃ¡fico de droga    0.6013513315777781
+    Attrib boca de fumo    0.34759368442455535
+    Attrib a tiro em    0.5546833812141255
+    Attrib por volta de    0.7549035801694193
+    Attrib em frente a    0.8237171691853623
+    Attrib tentativa de homicÃ­dio    0.5024752060802854
+    Attrib ponto de trÃ¡fico    0.4598545100390431
+    Attrib de acordo com    0.1999058809870087
+    Attrib de droga em    0.17905314998670213
+    Attrib pedra de crack    0.6091383201778336
+    Attrib dono de casa    0.8496594702528412
+    Attrib rede de esgoto    0.21032976296954292
+    Attrib assessoria de imprensa    0.22265808310967522
+    Attrib em funÃ§Ã£o de    0.10427091589166015
+    Attrib prefeitura de ViamÃ£o    0.0577914054654892
+    Attrib em dia de    0.0853955050573851
+    Attrib dia de chuva    0.10619964652274613
+    Attrib por meio de    -0.07669359783629082
+    Attrib por espaÃ§o de    -0.48444810058308263
+    Attrib mercado de trabalho    -0.5699936908932923
+    Attrib carteira de trabalho    -0.6261645682400819
+    Attrib curso gratuito de    -0.35495262770723923
+    Attrib pessoa com deficiÃªncia    -0.17877776693349237
+    Attrib comprovante de residÃªncia    -0.25087216450474625
+    Attrib auxiliar de produÃ§Ã£o    -0.26791507742664894
+    Attrib de serviÃ§o geral    -0.36635684807255087
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.3571260140245781
+    Attrib categoria de base    -0.639034241280717
+    Attrib a respeito de    -0.5119403112731203
+    Attrib em relaÃ§Ã£o a    -0.51183582434161
+    Attrib final de semana    0.605438593377775
+    Attrib Fome de gol    -0.5810025626843341
+    Attrib departamento de futebol    -0.7290565267731797
+    Attrib com exceÃ§Ã£o de    -0.4409823912620904
+    Attrib em busca de    0.6198592600222214
+    Attrib jogo de ontem    -0.6635260629495601
+    Attrib dia a dia    3.068846386057693
+    Attrib trÃ¡fico de droga    -1.1150362982218602
+    Attrib boca de fumo    -1.0958185392437663
+    Attrib a tiro em    -0.9664803554661007
+    Attrib por volta de    -0.9843958470132812
+    Attrib em frente a    -0.23252693536627672
+    Attrib tentativa de homicÃ­dio    -0.9187943825199735
+    Attrib ponto de trÃ¡fico    -0.8681834637586374
+    Attrib de acordo com    -0.20761319099323025
+    Attrib de droga em    -0.5428148927691341
+    Attrib pedra de crack    -1.036282057756665
+    Attrib dono de casa    2.5093657670087075
+    Attrib rede de esgoto    0.48609250921194896
+    Attrib assessoria de imprensa    -0.21303047625892566
+    Attrib em funÃ§Ã£o de    0.33080763185925594
+    Attrib prefeitura de ViamÃ£o    0.21255106679784058
+    Attrib em dia de    0.1791759454618852
+    Attrib dia de chuva    0.35794458377366306
+    Attrib por meio de    1.2391943936757381
+    Attrib por espaÃ§o de    1.315077378875559
+    Attrib mercado de trabalho    2.207519046176818
+    Attrib carteira de trabalho    1.2710376893840751
+    Attrib curso gratuito de    0.7976398680260595
+    Attrib pessoa com deficiÃªncia    0.5139106153585441
+    Attrib comprovante de residÃªncia    0.30504005531091405
+    Attrib auxiliar de produÃ§Ã£o    0.42898025172712767
+    Attrib de serviÃ§o geral    1.2328401912533185
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.2106371533100597
+    Attrib categoria de base    0.10548756109982335
+    Attrib a respeito de    0.06961492312946281
+    Attrib em relaÃ§Ã£o a    0.21436433259715604
+    Attrib final de semana    0.1425620973081759
+    Attrib Fome de gol    0.09295508629649966
+    Attrib departamento de futebol    0.11685630677596169
+    Attrib com exceÃ§Ã£o de    0.1582202381631856
+    Attrib em busca de    -0.13923877392102652
+    Attrib jogo de ontem    0.10116230964990354
+    Attrib dia a dia    -0.09194689985331043
+    Attrib trÃ¡fico de droga    0.13203210892370149
+    Attrib boca de fumo    0.11496847168512295
+    Attrib a tiro em    0.14535312379956672
+    Attrib por volta de    0.08656482337611188
+    Attrib em frente a    -0.10365793687087328
+    Attrib tentativa de homicÃ­dio    0.09963009496900373
+    Attrib ponto de trÃ¡fico    0.07525209003832205
+    Attrib de acordo com    0.044301804617287985
+    Attrib de droga em    0.19611645468932506
+    Attrib pedra de crack    0.150103485184129
+    Attrib dono de casa    -0.12922213289721568
+    Attrib rede de esgoto    -0.08060730535381198
+    Attrib assessoria de imprensa    -0.07853579519033277
+    Attrib em funÃ§Ã£o de    -0.04962229890205691
+    Attrib prefeitura de ViamÃ£o    0.06055267084786158
+    Attrib em dia de    0.04875564876059927
+    Attrib dia de chuva    0.001220122169460546
+    Attrib por meio de    0.2775989123350927
+    Attrib por espaÃ§o de    0.4159527318791822
+    Attrib mercado de trabalho    0.44574192599572027
+    Attrib carteira de trabalho    0.44228269518484714
+    Attrib curso gratuito de    0.4356004177188146
+    Attrib pessoa com deficiÃªncia    0.21615414703079727
+    Attrib comprovante de residÃªncia    0.3383078420113304
+    Attrib auxiliar de produÃ§Ã£o    0.29110206676016664
+    Attrib de serviÃ§o geral    0.22847613820802404
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.08383809697831343
+    Attrib categoria de base    -0.5081142988628732
+    Attrib a respeito de    -0.6209501321153224
+    Attrib em relaÃ§Ã£o a    -0.9539921502413812
+    Attrib final de semana    0.6434522725886409
+    Attrib Fome de gol    -0.7676854391099246
+    Attrib departamento de futebol    -0.5961263462732289
+    Attrib com exceÃ§Ã£o de    -0.5169961620356217
+    Attrib em busca de    -0.15686011981103648
+    Attrib jogo de ontem    -0.6593453375174521
+    Attrib dia a dia    -0.3029310153819937
+    Attrib trÃ¡fico de droga    -0.2396979148419005
+    Attrib boca de fumo    -0.16635011920872508
+    Attrib a tiro em    -0.31419059984419234
+    Attrib por volta de    -0.23282140996273376
+    Attrib em frente a    -0.20663469784548164
+    Attrib tentativa de homicÃ­dio    -0.28905162485954
+    Attrib ponto de trÃ¡fico    -0.18505152836510447
+    Attrib de acordo com    -0.827345650741901
+    Attrib de droga em    -0.10557003624404963
+    Attrib pedra de crack    -0.3085778394050335
+    Attrib dono de casa    -0.7463136380480361
+    Attrib rede de esgoto    -0.312542513232915
+    Attrib assessoria de imprensa    -0.423446485496688
+    Attrib em funÃ§Ã£o de    1.0894820365119
+    Attrib prefeitura de ViamÃ£o    -0.17734591242691114
+    Attrib em dia de    -0.4947705860063975
+    Attrib dia de chuva    -0.42358944148255917
+    Attrib por meio de    1.9192264219878217
+    Attrib por espaÃ§o de    1.547585546043679
+    Attrib mercado de trabalho    2.8852148980827437
+    Attrib carteira de trabalho    2.014176007092805
+    Attrib curso gratuito de    1.3041092593623014
+    Attrib pessoa com deficiÃªncia    0.45222459078071864
+    Attrib comprovante de residÃªncia    1.0758057451764018
+    Attrib auxiliar de produÃ§Ã£o    1.3042066614490875
+    Attrib de serviÃ§o geral    1.4822298077757137
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.3304147646264049
+    Attrib categoria de base    -0.851974181259638
+    Attrib a respeito de    -1.275275424587616
+    Attrib em relaÃ§Ã£o a    -0.08029893774061693
+    Attrib final de semana    2.0020463991795454
+    Attrib Fome de gol    -1.4106290929449927
+    Attrib departamento de futebol    -0.8731162749168103
+    Attrib com exceÃ§Ã£o de    -1.2325723292564212
+    Attrib em busca de    -1.393037636544062
+    Attrib jogo de ontem    -1.2632136380953596
+    Attrib dia a dia    -0.2590097915729494
+    Attrib trÃ¡fico de droga    3.1962367693475935
+    Attrib boca de fumo    1.815176229766714
+    Attrib a tiro em    3.122421197016245
+    Attrib por volta de    3.359673659659971
+    Attrib em frente a    1.1472953963601924
+    Attrib tentativa de homicÃ­dio    3.092361832998535
+    Attrib ponto de trÃ¡fico    1.4494985502479831
+    Attrib de acordo com    -0.7408735631295682
+    Attrib de droga em    0.2895587952148326
+    Attrib pedra de crack    2.72208630385576
+    Attrib dono de casa    0.2043182810497899
+    Attrib rede de esgoto    -0.7604732114634327
+    Attrib assessoria de imprensa    -2.4697401970719843
+    Attrib em funÃ§Ã£o de    -0.8005268659691769
+    Attrib prefeitura de ViamÃ£o    -1.0439152881891152
+    Attrib em dia de    -0.6913944132062531
+    Attrib dia de chuva    -0.7764445105327967
+    Attrib por meio de    2.2688660161785523
+    Attrib por espaÃ§o de    -0.0666710953336243
+    Attrib mercado de trabalho    -0.14491346295352758
+    Attrib carteira de trabalho    -0.19212460483480942
+    Attrib curso gratuito de    -0.16518626782231388
+    Attrib pessoa com deficiÃªncia    -0.5482165493401664
+    Attrib comprovante de residÃªncia    -0.24652862493426933
+    Attrib auxiliar de produÃ§Ã£o    -0.2383747407231231
+    Attrib de serviÃ§o geral    -0.24972606614654588
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.14496428209611964
+    Attrib categoria de base    -0.005144770746350373
+    Attrib a respeito de    -0.08553015967842374
+    Attrib em relaÃ§Ã£o a    -0.03825668444507315
+    Attrib final de semana    0.2580682717420501
+    Attrib Fome de gol    -0.14490432466602937
+    Attrib departamento de futebol    -0.0324815024098721
+    Attrib com exceÃ§Ã£o de    0.022675014551257745
+    Attrib em busca de    0.015386184766991233
+    Attrib jogo de ontem    -0.10904834916061572
+    Attrib dia a dia    -0.05617562763128777
+    Attrib trÃ¡fico de droga    0.07774750899409057
+    Attrib boca de fumo    0.040469396183499415
+    Attrib a tiro em    0.07930365697176454
+    Attrib por volta de    0.07659490128406121
+    Attrib em frente a    -0.005687510363772266
+    Attrib tentativa de homicÃ­dio    0.03763403052297881
+    Attrib ponto de trÃ¡fico    0.057510503973790414
+    Attrib de acordo com    0.10814486051081412
+    Attrib de droga em    0.11660794224890918
+    Attrib pedra de crack    0.03910904771772982
+    Attrib dono de casa    -0.048529082771945224
+    Attrib rede de esgoto    0.03699836419973297
+    Attrib assessoria de imprensa    0.031077758162424023
+    Attrib em funÃ§Ã£o de    -0.009146475175304125
+    Attrib prefeitura de ViamÃ£o    0.06044618488397535
+    Attrib em dia de    -0.00828817999149166
+    Attrib dia de chuva    0.07377627807748427
+    Attrib por meio de    0.22424319428321643
+    Attrib por espaÃ§o de    0.6110080050491853
+    Attrib mercado de trabalho    0.6780421757305376
+    Attrib carteira de trabalho    0.7321087435779159
+    Attrib curso gratuito de    0.5140135640922059
+    Attrib pessoa com deficiÃªncia    0.2508013010319936
+    Attrib comprovante de residÃªncia    0.4775313550695619
+    Attrib auxiliar de produÃ§Ã£o    0.3719466274533415
+    Attrib de serviÃ§o geral    0.3320551176830117
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.2073286929219695
+    Attrib categoria de base    -1.5928521554252255
+    Attrib a respeito de    -0.7388170787687737
+    Attrib em relaÃ§Ã£o a    -1.1695065963593818
+    Attrib final de semana    -0.4016780262767404
+    Attrib Fome de gol    -3.235495167734326
+    Attrib departamento de futebol    -0.8726465743332904
+    Attrib com exceÃ§Ã£o de    -0.6870905924845617
+    Attrib em busca de    -0.11842335468415348
+    Attrib jogo de ontem    -0.9300181012775293
+    Attrib dia a dia    0.12703617889267807
+    Attrib trÃ¡fico de droga    -1.6459117010305095
+    Attrib boca de fumo    -0.2812083625345604
+    Attrib a tiro em    -0.22878480168896465
+    Attrib por volta de    -0.12873498906068795
+    Attrib em frente a    3.8757414796854133
+    Attrib tentativa de homicÃ­dio    -0.18293825587297616
+    Attrib ponto de trÃ¡fico    -0.29349793593917856
+    Attrib de acordo com    4.494301406355712
+    Attrib de droga em    -0.2930709908676579
+    Attrib pedra de crack    -0.25406909479047546
+    Attrib dono de casa    3.2076021609099423
+    Attrib rede de esgoto    3.0429765339872374
+    Attrib assessoria de imprensa    0.9662750388344626
+    Attrib em funÃ§Ã£o de    2.4427366187598114
+    Attrib prefeitura de ViamÃ£o    1.038871359971943
+    Attrib em dia de    1.222047257973178
+    Attrib dia de chuva    1.2288621106960296
+    Attrib por meio de    -0.2949428189454669
+    Attrib por espaÃ§o de    -0.45680183887305076
+    Attrib mercado de trabalho    -0.5765581287752432
+    Attrib carteira de trabalho    -0.9265370646413299
+    Attrib curso gratuito de    -0.9345706857259606
+    Attrib pessoa com deficiÃªncia    0.23635001611336803
+    Attrib comprovante de residÃªncia    -0.854853722378654
+    Attrib auxiliar de produÃ§Ã£o    -0.07559927879740796
+    Attrib de serviÃ§o geral    0.40809363255982084
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.17725680841276564
+    Attrib categoria de base    0.07094769579704975
+    Attrib a respeito de    0.043175246386905806
+    Attrib em relaÃ§Ã£o a    0.08738560265177835
+    Attrib final de semana    0.07409021404876209
+    Attrib Fome de gol    -0.010992381336623218
+    Attrib departamento de futebol    0.029618337867497464
+    Attrib com exceÃ§Ã£o de    0.09810281846268722
+    Attrib em busca de    0.10438344084011804
+    Attrib jogo de ontem    0.018548682825331758
+    Attrib dia a dia    -0.029425363708275424
+    Attrib trÃ¡fico de droga    0.17709423256982706
+    Attrib boca de fumo    0.2051670834396436
+    Attrib a tiro em    0.16467348302462995
+    Attrib por volta de    0.17869581507019802
+    Attrib em frente a    0.20119017353157356
+    Attrib tentativa de homicÃ­dio    0.22875032805207587
+    Attrib ponto de trÃ¡fico    0.22595545879136533
+    Attrib de acordo com    0.14138765740558606
+    Attrib de droga em    0.14809242451735774
+    Attrib pedra de crack    0.17539424147180968
+    Attrib dono de casa    0.2500195371002412
+    Attrib rede de esgoto    0.11307206553299932
+    Attrib assessoria de imprensa    0.1983385406214537
+    Attrib em funÃ§Ã£o de    0.10362948623223615
+    Attrib prefeitura de ViamÃ£o    0.14548586646868106
+    Attrib em dia de    0.11621127274490001
+    Attrib dia de chuva    0.11156936730173428
+    Attrib por meio de    0.18605556174708512
+    Attrib por espaÃ§o de    0.06204330600974985
+    Attrib mercado de trabalho    0.15115066201956256
+    Attrib carteira de trabalho    0.12019598025187689
+    Attrib curso gratuito de    0.09654697010547628
+    Attrib pessoa com deficiÃªncia    0.09658690196193324
+    Attrib comprovante de residÃªncia    0.07388407967675906
+    Attrib auxiliar de produÃ§Ã£o    0.13427886177582163
+    Attrib de serviÃ§o geral    0.12746680535611368
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.23513786592962352
+    Attrib categoria de base    -1.4681893225135147
+    Attrib a respeito de    -0.5974748797982112
+    Attrib em relaÃ§Ã£o a    -0.7209291203114018
+    Attrib final de semana    0.7393777483986164
+    Attrib Fome de gol    -0.7170664657100146
+    Attrib departamento de futebol    -0.5644149242181875
+    Attrib com exceÃ§Ã£o de    -0.43562573593010673
+    Attrib em busca de    -0.008584030157198986
+    Attrib jogo de ontem    -0.6042183476812064
+    Attrib dia a dia    0.46972447159173963
+    Attrib trÃ¡fico de droga    -1.2981111594064445
+    Attrib boca de fumo    -0.20425290943431865
+    Attrib a tiro em    -0.0762215983287139
+    Attrib por volta de    -0.654003139320178
+    Attrib em frente a    0.6974662934340864
+    Attrib tentativa de homicÃ­dio    -0.1256097746567741
+    Attrib ponto de trÃ¡fico    -0.2204081050968705
+    Attrib de acordo com    -0.24264501914627912
+    Attrib de droga em    -0.2258928795010075
+    Attrib pedra de crack    -0.20732540424667426
+    Attrib dono de casa    2.619772272665401
+    Attrib rede de esgoto    3.082523994461701
+    Attrib assessoria de imprensa    0.7856920650555015
+    Attrib em funÃ§Ã£o de    3.283549062672902
+    Attrib prefeitura de ViamÃ£o    1.811401038174699
+    Attrib em dia de    1.3002630592419515
+    Attrib dia de chuva    1.284659476216228
+    Attrib por meio de    -0.0633491082174683
+    Attrib por espaÃ§o de    -0.4451753873276997
+    Attrib mercado de trabalho    -0.4752351549533258
+    Attrib carteira de trabalho    -0.6200700913462192
+    Attrib curso gratuito de    -0.6356208281053699
+    Attrib pessoa com deficiÃªncia    0.32124403549618485
+    Attrib comprovante de residÃªncia    -0.5804023961557184
+    Attrib auxiliar de produÃ§Ã£o    -0.270415882647721
+    Attrib de serviÃ§o geral    0.6731516686649648
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.07593488947604798
+    Attrib categoria de base    -0.2435190147459575
+    Attrib a respeito de    -0.39850838483194656
+    Attrib em relaÃ§Ã£o a    -0.36910610454798254
+    Attrib final de semana    0.401577589372481
+    Attrib Fome de gol    -0.651692912631133
+    Attrib departamento de futebol    -0.34755363982114296
+    Attrib com exceÃ§Ã£o de    -0.2829140172313527
+    Attrib em busca de    -0.7648322791873068
+    Attrib jogo de ontem    -0.40563068012160614
+    Attrib dia a dia    -0.3988654901313899
+    Attrib trÃ¡fico de droga    0.1895507849272632
+    Attrib boca de fumo    0.15644811274448836
+    Attrib a tiro em    0.12507186503253448
+    Attrib por volta de    0.2329649721103507
+    Attrib em frente a    -0.06186011978478112
+    Attrib tentativa de homicÃ­dio    0.16464232690739594
+    Attrib ponto de trÃ¡fico    0.1138338010078937
+    Attrib de acordo com    0.056673632614927465
+    Attrib de droga em    0.15361106527289392
+    Attrib pedra de crack    0.15262947374000105
+    Attrib dono de casa    -0.22234797840497228
+    Attrib rede de esgoto    -0.0415172687098672
+    Attrib assessoria de imprensa    -0.14715177021351053
+    Attrib em funÃ§Ã£o de    0.191396022971437
+    Attrib prefeitura de ViamÃ£o    -0.07314815173895213
+    Attrib em dia de    -0.1412053982349708
+    Attrib dia de chuva    -0.09862029393188262
+    Attrib por meio de    1.1871036620465008
+    Attrib por espaÃ§o de    0.8648025573286546
+    Attrib mercado de trabalho    1.2262058811747873
+    Attrib carteira de trabalho    0.9669835482173269
+    Attrib curso gratuito de    0.6458144887625143
+    Attrib pessoa com deficiÃªncia    0.379153612747899
+    Attrib comprovante de residÃªncia    0.48684305832430635
+    Attrib auxiliar de produÃ§Ã£o    0.8038338938844063
+    Attrib de serviÃ§o geral    0.6472328675887309
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.06925896645367131
+    Attrib categoria de base    -0.3252418956298164
+    Attrib a respeito de    -0.40156119004250024
+    Attrib em relaÃ§Ã£o a    -0.5599360003087638
+    Attrib final de semana    0.5710543956360543
+    Attrib Fome de gol    -0.4951343558537922
+    Attrib departamento de futebol    -0.4413590679539889
+    Attrib com exceÃ§Ã£o de    -0.27309542485091487
+    Attrib em busca de    0.29579309746043864
+    Attrib jogo de ontem    -0.4443941543253071
+    Attrib dia a dia    0.03900026070184883
+    Attrib trÃ¡fico de droga    -0.36899417922221917
+    Attrib boca de fumo    -0.2522100063294626
+    Attrib a tiro em    -0.36684522619388565
+    Attrib por volta de    -0.28258139362580015
+    Attrib em frente a    -0.16025788771447344
+    Attrib tentativa de homicÃ­dio    -0.36192998590423103
+    Attrib ponto de trÃ¡fico    -0.32395959711391625
+    Attrib de acordo com    0.006900649468778218
+    Attrib de droga em    -0.14182601962006794
+    Attrib pedra de crack    -0.4207552305345832
+    Attrib dono de casa    -0.03756296318899055
+    Attrib rede de esgoto    0.06355311431911989
+    Attrib assessoria de imprensa    0.0764705226584686
+    Attrib em funÃ§Ã£o de    0.35958069997998293
+    Attrib prefeitura de ViamÃ£o    0.10764724335902996
+    Attrib em dia de    -0.14656775039427547
+    Attrib dia de chuva    -0.09242869416284745
+    Attrib por meio de    0.7933468987316002
+    Attrib por espaÃ§o de    1.1046611269340831
+    Attrib mercado de trabalho    2.1041238545751453
+    Attrib carteira de trabalho    1.4987600860806005
+    Attrib curso gratuito de    0.8637294946763896
+    Attrib pessoa com deficiÃªncia    0.5184562353375621
+    Attrib comprovante de residÃªncia    0.6801192813941548
+    Attrib auxiliar de produÃ§Ã£o    0.8554586903476167
+    Attrib de serviÃ§o geral    1.0163744475152467
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    0.4346083596429671
+    Attrib categoria de base    -2.4716616399911664
+    Attrib a respeito de    -0.6772282501663139
+    Attrib em relaÃ§Ã£o a    -1.801820509588875
+    Attrib final de semana    -0.18840810353736018
+    Attrib Fome de gol    -0.767281383599417
+    Attrib departamento de futebol    -0.7279733779213029
+    Attrib com exceÃ§Ã£o de    -0.5975712695226764
+    Attrib em busca de    4.6173926343794225
+    Attrib jogo de ontem    -0.7420501385256747
+    Attrib dia a dia    -0.2667418820377001
+    Attrib trÃ¡fico de droga    -1.831396073211236
+    Attrib boca de fumo    -0.6932392276742255
+    Attrib a tiro em    -0.3932996954408885
+    Attrib por volta de    -0.5424110664707325
+    Attrib em frente a    0.40851754063141
+    Attrib tentativa de homicÃ­dio    -0.4075515591167239
+    Attrib ponto de trÃ¡fico    -0.4899707072877719
+    Attrib de acordo com    -0.8336592868908224
+    Attrib de droga em    -0.4973453717299471
+    Attrib pedra de crack    -0.4458099580943103
+    Attrib dono de casa    2.7179219036894824
+    Attrib rede de esgoto    3.1558395775704366
+    Attrib assessoria de imprensa    3.9421774155273677
+    Attrib em funÃ§Ã£o de    3.6423249311411348
+    Attrib prefeitura de ViamÃ£o    1.8440383157545976
+    Attrib em dia de    1.2792227339190134
+    Attrib dia de chuva    1.2589126140103866
+    Attrib por meio de    0.6175762530651959
+    Attrib por espaÃ§o de    -0.5936675976749719
+    Attrib mercado de trabalho    -0.5461786420966128
+    Attrib carteira de trabalho    -1.2996356667067253
+    Attrib curso gratuito de    -0.9824019324090787
+    Attrib pessoa com deficiÃªncia    0.30160396777681375
+    Attrib comprovante de residÃªncia    -1.2400338530049457
+    Attrib auxiliar de produÃ§Ã£o    -0.4250482180767575
+    Attrib de serviÃ§o geral    0.5994289895358468
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    3.0454053169167805E-4
+    Attrib categoria de base    -0.1432337808490895
+    Attrib a respeito de    -0.2104755122584372
+    Attrib em relaÃ§Ã£o a    0.010991261298802115
+    Attrib final de semana    -0.145992680490935
+    Attrib Fome de gol    -0.24543903265189893
+    Attrib departamento de futebol    -0.12070435479468658
+    Attrib com exceÃ§Ã£o de    -0.09654715236740795
+    Attrib em busca de    0.03212013717550429
+    Attrib jogo de ontem    -0.19752934570332367
+    Attrib dia a dia    -0.21495279375772128
+    Attrib trÃ¡fico de droga    0.14716811369445648
+    Attrib boca de fumo    0.12645423155701915
+    Attrib a tiro em    0.21069850906496956
+    Attrib por volta de    0.5493312422871459
+    Attrib em frente a    0.7170918037313362
+    Attrib tentativa de homicÃ­dio    0.24126700008665183
+    Attrib ponto de trÃ¡fico    0.11449544111131155
+    Attrib de acordo com    -0.024508311487309278
+    Attrib de droga em    0.1236240851579533
+    Attrib pedra de crack    0.19819540295004007
+    Attrib dono de casa    0.5492107188779182
+    Attrib rede de esgoto    0.28109065524742544
+    Attrib assessoria de imprensa    0.9165583055703295
+    Attrib em funÃ§Ã£o de    0.1052360059586672
+    Attrib prefeitura de ViamÃ£o    0.22246896938950153
+    Attrib em dia de    0.21720258590596933
+    Attrib dia de chuva    0.2825935404451943
+    Attrib por meio de    0.4814010444934805
+    Attrib por espaÃ§o de    -0.007279092755459634
+    Attrib mercado de trabalho    -0.053393090970048025
+    Attrib carteira de trabalho    -0.11686386629707943
+    Attrib curso gratuito de    -0.07985932669496004
+    Attrib pessoa com deficiÃªncia    0.027135178636960824
+    Attrib comprovante de residÃªncia    -0.07292084031852461
+    Attrib auxiliar de produÃ§Ã£o    -0.008694886917028346
+    Attrib de serviÃ§o geral    0.03946490889984583
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    1.1311651652528714
+    Attrib categoria de base    -1.558275081681485
+    Attrib a respeito de    -2.2865046704879615
+    Attrib em relaÃ§Ã£o a    2.0890618638562426
+    Attrib final de semana    3.142617943036253
+    Attrib Fome de gol    -2.190394094364872
+    Attrib departamento de futebol    -1.568087419584621
+    Attrib com exceÃ§Ã£o de    -2.41076349317059
+    Attrib em busca de    -2.1395086343131453
+    Attrib jogo de ontem    -1.838973445462183
+    Attrib dia a dia    0.5100249021311725
+    Attrib trÃ¡fico de droga    4.690677170577637
+    Attrib boca de fumo    4.449086188307881
+    Attrib a tiro em    5.333762419048164
+    Attrib por volta de    4.847916237611959
+    Attrib em frente a    2.801933206959318
+    Attrib tentativa de homicÃ­dio    5.083301428390149
+    Attrib ponto de trÃ¡fico    6.071203960750901
+    Attrib de acordo com    1.8916495016653019
+    Attrib de droga em    -0.1965221530350278
+    Attrib pedra de crack    4.546677537001281
+    Attrib dono de casa    0.3444376974360442
+    Attrib rede de esgoto    -1.3048034100074382
+    Attrib assessoria de imprensa    -3.558662516081537
+    Attrib em funÃ§Ã£o de    -1.7405224551095546
+    Attrib prefeitura de ViamÃ£o    -1.905660525971483
+    Attrib em dia de    -1.3305410033397982
+    Attrib dia de chuva    -1.7777205726715661
+    Attrib por meio de    2.160024524146249
+    Attrib por espaÃ§o de    -1.3795899094706447
+    Attrib mercado de trabalho    -1.70227075535741
+    Attrib carteira de trabalho    -1.7351508729322136
+    Attrib curso gratuito de    -1.363657033729376
+    Attrib pessoa com deficiÃªncia    -1.5587179536401055
+    Attrib comprovante de residÃªncia    -1.2833350843294042
+    Attrib auxiliar de produÃ§Ã£o    -1.1883289210398427
+    Attrib de serviÃ§o geral    -1.3411028192246368
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.1503944099069952
+    Attrib categoria de base    0.06975482701935837
+    Attrib a respeito de    -0.09892777075334519
+    Attrib em relaÃ§Ã£o a    0.21476945934136132
+    Attrib final de semana    0.21099920732738936
+    Attrib Fome de gol    -0.09874008781211799
+    Attrib departamento de futebol    -0.005725700810396022
+    Attrib com exceÃ§Ã£o de    0.01814431298227219
+    Attrib em busca de    -0.24085337112003086
+    Attrib jogo de ontem    -0.017824133598222665
+    Attrib dia a dia    -0.23258032780055177
+    Attrib trÃ¡fico de droga    0.5924967658047408
+    Attrib boca de fumo    0.4082223483804081
+    Attrib a tiro em    0.5145274238073975
+    Attrib por volta de    0.46969084593442934
+    Attrib em frente a    0.1486345522273596
+    Attrib tentativa de homicÃ­dio    0.4419150672030495
+    Attrib ponto de trÃ¡fico    0.47012828091582004
+    Attrib de acordo com    0.11403881374115213
+    Attrib de droga em    0.2523150777566985
+    Attrib pedra de crack    0.45458200578805547
+    Attrib dono de casa    0.10567692823902339
+    Attrib rede de esgoto    -0.07504606498078067
+    Attrib assessoria de imprensa    -0.20841353925814138
+    Attrib em funÃ§Ã£o de    -0.21500186347347006
+    Attrib prefeitura de ViamÃ£o    -0.0672642953606642
+    Attrib em dia de    0.014685145343341897
+    Attrib dia de chuva    -0.020143156981076212
+    Attrib por meio de    0.23336776784552085
+    Attrib por espaÃ§o de    0.214230624630694
+    Attrib mercado de trabalho    0.22040346919687187
+    Attrib carteira de trabalho    0.23367551248517646
+    Attrib curso gratuito de    0.18671544112572258
+    Attrib pessoa com deficiÃªncia    0.07103251885488576
+    Attrib comprovante de residÃªncia    0.18684915050239334
+    Attrib auxiliar de produÃ§Ã£o    0.1462307010729967
+    Attrib de serviÃ§o geral    0.17669300828483528
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.10761998166371577
+    Attrib categoria de base    -0.3044494818249839
+    Attrib a respeito de    -0.5502350350887077
+    Attrib em relaÃ§Ã£o a    -0.5144405130830515
+    Attrib final de semana    0.7413119796724487
+    Attrib Fome de gol    -0.7233246261020515
+    Attrib departamento de futebol    -0.44207250881256943
+    Attrib com exceÃ§Ã£o de    -0.4199870773217947
+    Attrib em busca de    -0.7637096384444096
+    Attrib jogo de ontem    -0.5478995292881154
+    Attrib dia a dia    -0.4985847068769297
+    Attrib trÃ¡fico de droga    0.24427443417303246
+    Attrib boca de fumo    0.16856179878341546
+    Attrib a tiro em    0.2395864461085037
+    Attrib por volta de    0.3553844010699661
+    Attrib em frente a    -0.2424279110571546
+    Attrib tentativa de homicÃ­dio    0.24507957285085685
+    Attrib ponto de trÃ¡fico    0.19889268729599108
+    Attrib de acordo com    -0.5332780868483128
+    Attrib de droga em    0.1271634050180774
+    Attrib pedra de crack    0.23290353056699342
+    Attrib dono de casa    -0.49032063671492565
+    Attrib rede de esgoto    -0.2061621672816875
+    Attrib assessoria de imprensa    -0.5512121550147916
+    Attrib em funÃ§Ã£o de    0.539694569848914
+    Attrib prefeitura de ViamÃ£o    -0.18983861668991542
+    Attrib em dia de    -0.23787307258788715
+    Attrib dia de chuva    -0.2238275078276806
+    Attrib por meio de    1.7905350636308328
+    Attrib por espaÃ§o de    1.018080994776803
+    Attrib mercado de trabalho    1.6715207408168489
+    Attrib carteira de trabalho    0.9837445185892563
+    Attrib curso gratuito de    0.7954622827887222
+    Attrib pessoa com deficiÃªncia    0.24112495998829508
+    Attrib comprovante de residÃªncia    0.6093473209585166
+    Attrib auxiliar de produÃ§Ã£o    0.824947621304266
+    Attrib de serviÃ§o geral    0.754953585753592
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.3547397967457387
+    Attrib categoria de base    -0.8724225418131076
+    Attrib a respeito de    -1.7983031240072727
+    Attrib em relaÃ§Ã£o a    4.488383892085798
+    Attrib final de semana    4.732417599744792
+    Attrib Fome de gol    -1.4161224972088395
+    Attrib departamento de futebol    -0.7978372808730403
+    Attrib com exceÃ§Ã£o de    -1.036008980315756
+    Attrib em busca de    -1.3941269652948853
+    Attrib jogo de ontem    -2.0280163203068953
+    Attrib dia a dia    -1.35759419861944
+    Attrib trÃ¡fico de droga    2.3332191548542576
+    Attrib boca de fumo    0.6961603253010615
+    Attrib a tiro em    2.05667212049278
+    Attrib por volta de    2.852142157259268
+    Attrib em frente a    1.8463756720255118
+    Attrib tentativa de homicÃ­dio    2.083759128972696
+    Attrib ponto de trÃ¡fico    1.1997607121244243
+    Attrib de acordo com    0.5484969435304449
+    Attrib de droga em    0.23220411446385006
+    Attrib pedra de crack    2.298551305036319
+    Attrib dono de casa    0.18959695093114595
+    Attrib rede de esgoto    -0.37884897660262856
+    Attrib assessoria de imprensa    -2.2064097555789557
+    Attrib em funÃ§Ã£o de    -0.9111601333775565
+    Attrib prefeitura de ViamÃ£o    -0.7629048509436709
+    Attrib em dia de    -0.4864778164039288
+    Attrib dia de chuva    -0.7500171252374094
+    Attrib por meio de    1.0115383892044056
+    Attrib por espaÃ§o de    -0.43672010293645785
+    Attrib mercado de trabalho    -0.717142214185124
+    Attrib carteira de trabalho    -0.41149532483858203
+    Attrib curso gratuito de    -0.4429671554222086
+    Attrib pessoa com deficiÃªncia    -0.4316551787487117
+    Attrib comprovante de residÃªncia    -0.28810736832602063
+    Attrib auxiliar de produÃ§Ã£o    -0.25682666159866624
+    Attrib de serviÃ§o geral    -0.3095535656947281
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    0.41961341790794937
+    Attrib categoria de base    -0.9141883252528018
+    Attrib a respeito de    -0.8815838527627273
+    Attrib em relaÃ§Ã£o a    -1.7695050213037349
+    Attrib final de semana    0.6851610763759606
+    Attrib Fome de gol    -0.9896769870581394
+    Attrib departamento de futebol    -1.00167283181147
+    Attrib com exceÃ§Ã£o de    -0.7857883086673726
+    Attrib em busca de    -1.8619263040241254
+    Attrib jogo de ontem    -1.0080204923514438
+    Attrib dia a dia    -0.7935302263077509
+    Attrib trÃ¡fico de droga    -0.6972129686763449
+    Attrib boca de fumo    -0.6082000730440545
+    Attrib a tiro em    -0.860065768545457
+    Attrib por volta de    -0.7722836210644005
+    Attrib em frente a    -1.0364068681597665
+    Attrib tentativa de homicÃ­dio    -0.7840801188496849
+    Attrib ponto de trÃ¡fico    -0.6654408012241565
+    Attrib de acordo com    -0.33537263563153263
+    Attrib de droga em    -0.49702369493181525
+    Attrib pedra de crack    -0.8672220321148758
+    Attrib dono de casa    -2.0160394519478273
+    Attrib rede de esgoto    -0.583622306765837
+    Attrib assessoria de imprensa    -1.2978691476503965
+    Attrib em funÃ§Ã£o de    0.7866898171162116
+    Attrib prefeitura de ViamÃ£o    -0.5122890089359905
+    Attrib em dia de    -1.2028975394603296
+    Attrib dia de chuva    -1.1749908800212807
+    Attrib por meio de    3.5348813733284983
+    Attrib por espaÃ§o de    3.30362007765223
+    Attrib mercado de trabalho    5.155232753768971
+    Attrib carteira de trabalho    4.001898273942244
+    Attrib curso gratuito de    3.0478589303597547
+    Attrib pessoa com deficiÃªncia    0.5682863754291041
+    Attrib comprovante de residÃªncia    2.3006100165650474
+    Attrib auxiliar de produÃ§Ã£o    3.23416004482721
+    Attrib de serviÃ§o geral    3.4894903230028484
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    0.2292594214404661
+    Attrib categoria de base    -0.7590770061572042
+    Attrib a respeito de    -0.878066913511907
+    Attrib em relaÃ§Ã£o a    -0.3920970898415628
+    Attrib final de semana    0.7321193710698339
+    Attrib Fome de gol    -0.9591302637445115
+    Attrib departamento de futebol    -0.6652312440983328
+    Attrib com exceÃ§Ã£o de    -0.7573468714643562
+    Attrib em busca de    -1.0228394720902803
+    Attrib jogo de ontem    -0.7606742458435534
+    Attrib dia a dia    -0.7297952257067183
+    Attrib trÃ¡fico de droga    0.5374750320876304
+    Attrib boca de fumo    0.4594013311719524
+    Attrib a tiro em    1.3687865066489064
+    Attrib por volta de    2.259325129394623
+    Attrib em frente a    3.6893447912644453
+    Attrib tentativa de homicÃ­dio    1.3190827958305469
+    Attrib ponto de trÃ¡fico    0.8415148516597046
+    Attrib de acordo com    -1.8559015594544745
+    Attrib de droga em    0.10251463362698181
+    Attrib pedra de crack    1.1583923918083998
+    Attrib dono de casa    1.8057389363392926
+    Attrib rede de esgoto    0.44381053224646116
+    Attrib assessoria de imprensa    1.1201120468358026
+    Attrib em funÃ§Ã£o de    -0.3071231141073969
+    Attrib prefeitura de ViamÃ£o    0.10510206580952669
+    Attrib em dia de    0.4544317254935397
+    Attrib dia de chuva    0.4159099743487652
+    Attrib por meio de    0.6394780942249846
+    Attrib por espaÃ§o de    -0.47563059088900866
+    Attrib mercado de trabalho    -0.5322905422098966
+    Attrib carteira de trabalho    -0.8807724192899693
+    Attrib curso gratuito de    -0.5195130995938294
+    Attrib pessoa com deficiÃªncia    -0.11150354121736894
+    Attrib comprovante de residÃªncia    -0.5916702557522912
+    Attrib auxiliar de produÃ§Ã£o    -0.3278539227554337
+    Attrib de serviÃ§o geral    -0.018714325498359243
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    0.6995623635337128
+    Attrib categoria de base    3.271189133003463
+    Attrib a respeito de    4.244471024621681
+    Attrib em relaÃ§Ã£o a    4.615018497235716
+    Attrib final de semana    5.245387129619969
+    Attrib Fome de gol    6.360248622925063
+    Attrib departamento de futebol    3.945495870942981
+    Attrib com exceÃ§Ã£o de    3.9426361880288345
+    Attrib em busca de    5.063904965569982
+    Attrib jogo de ontem    3.920856751482064
+    Attrib dia a dia    0.5548218666090873
+    Attrib trÃ¡fico de droga    0.33107542558760666
+    Attrib boca de fumo    -0.9011709868853712
+    Attrib a tiro em    -0.41782122737410554
+    Attrib por volta de    -0.5285994192121759
+    Attrib em frente a    -1.9407781007307532
+    Attrib tentativa de homicÃ­dio    -0.5025417896545238
+    Attrib ponto de trÃ¡fico    -0.7207677732491979
+    Attrib de acordo com    -2.747042734309905
+    Attrib de droga em    -0.5944078022120828
+    Attrib pedra de crack    -0.5136365497887753
+    Attrib dono de casa    -3.18975783542077
+    Attrib rede de esgoto    -2.1360075873370974
+    Attrib assessoria de imprensa    -2.4937299423305976
+    Attrib em funÃ§Ã£o de    0.44258184179590965
+    Attrib prefeitura de ViamÃ£o    -1.469493965028171
+    Attrib em dia de    -1.3935580304274813
+    Attrib dia de chuva    -1.3696270688545864
+    Attrib por meio de    -1.5540497406903417
+    Attrib por espaÃ§o de    -1.8286885505133685
+    Attrib mercado de trabalho    -2.0784610147105296
+    Attrib carteira de trabalho    -2.010031166581515
+    Attrib curso gratuito de    -1.2370336998353908
+    Attrib pessoa com deficiÃªncia    -1.6212649797805803
+    Attrib comprovante de residÃªncia    -1.2840602933030711
+    Attrib auxiliar de produÃ§Ã£o    -1.9336465571387111
+    Attrib de serviÃ§o geral    -1.9731641820759074
+Class Esporte
+    Input
+    Node 0
+Class Policia
+    Input
+    Node 1
+Class ProblemaNosso
+    Input
+    Node 2
+Class EspacoTrabalhador
+    Input
+    Node 3
+
+
+Time taken to build model: 2.17 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          27               61.3636 %
+Incorrectly Classified Instances        17               38.6364 %
+Kappa statistic                          0.4848
+Mean absolute error                      0.2281
+Root mean squared error                  0.3602
+Relative absolute error                 60.8163 %
+Root relative squared error             82.9915 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,909    0,303    0,500      0,909    0,645      0,527    0,872     0,634     Esporte
+                 0,455    0,030    0,833      0,455    0,588      0,535    0,815     0,615     Policia
+                 0,727    0,152    0,615      0,727    0,667      0,546    0,773     0,733     ProblemaNosso
+                 0,364    0,030    0,800      0,364    0,500      0,455    0,815     0,576     EspacoTrabalhador
+Weighted Avg.    0,614    0,129    0,687      0,614    0,600      0,516    0,819     0,639     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 10  0  1  0 |  a = Esporte
+  4  5  2  0 |  b = Policia
+  1  1  8  1 |  c = ProblemaNosso
+  5  0  2  4 |  d = EspacoTrabalhador
+

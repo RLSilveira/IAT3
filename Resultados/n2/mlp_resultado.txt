@@ -1,0 +1,988 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Arquivo
+Instances:    283
+Attributes:   38
+              braga @diariogaucho
+              cacalo @diariogaucho
+              Copa de
+              time de
+              jogo de
+              nÃ£o poder
+              de futebol
+              final de
+              depois de
+              antes de
+              De_acordo com
+              casa de
+              em Porto_Alegre
+              tiro em
+              de droga
+              noite de
+              de homicÃ­dio
+              manhÃ£ de
+              tarde de
+              de casa
+              munhoz @diariogaucho
+              dono de
+              morador de
+              por Tiago_Rech
+              prefeitura de
+              parte de
+              rede de
+              de lixo
+              baldo @diariogaucho
+              auxiliar de
+              de trabalho
+              tÃ©cnico em
+              de R$
+              vaga em
+              curso de
+              Auxiliar de
+              Ã¡rea de
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.8684059322034753
+    Node 4    -2.8755342498595082
+    Node 5    -0.7386427578821929
+    Node 6    1.668057086476249
+    Node 7    -0.8093374527782523
+    Node 8    -1.1196137986583197
+    Node 9    0.6763790049487521
+    Node 10    -1.3434507214875868
+    Node 11    -1.3286173941786152
+    Node 12    1.9401622334441684
+    Node 13    4.863190798255174
+    Node 14    -2.106640395373055
+    Node 15    -0.014542854624571614
+    Node 16    0.2779795764983507
+    Node 17    -1.5568235646967512
+    Node 18    1.2416214156652048
+    Node 19    1.6010327234033788
+    Node 20    -2.3118727448458385
+    Node 21    1.9578497679345717
+    Node 22    -2.229686015372195
+    Node 23    -2.021813142840133
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.3234688487135475
+    Node 4    2.75729288937176
+    Node 5    0.941225761128118
+    Node 6    -0.5392615161144622
+    Node 7    -0.827834525395634
+    Node 8    -1.4159375743023401
+    Node 9    1.2577183175427085
+    Node 10    -4.249128065681408
+    Node 11    -0.6324859767592057
+    Node 12    0.5635393134770333
+    Node 13    -4.4377626177248
+    Node 14    0.2082947048986122
+    Node 15    -0.7540605001451626
+    Node 16    -6.164782478305622
+    Node 17    -1.0166708947937617
+    Node 18    -0.9902115906667764
+    Node 19    -1.2045006536059868
+    Node 20    0.4608026118375538
+    Node 21    -4.8759286879076456
+    Node 22    3.519989173593258
+    Node 23    1.2948029571348707
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.5940826465115372
+    Node 4    1.5342587520622457
+    Node 5    -1.5981161015399226
+    Node 6    -3.2148705587982933
+    Node 7    -0.16374652987840763
+    Node 8    2.017503813674845
+    Node 9    -0.6333993101805687
+    Node 10    3.729366999274235
+    Node 11    1.4989382858334608
+    Node 12    -5.530543287511567
+    Node 13    -2.12635971243123
+    Node 14    -1.4107243188271865
+    Node 15    -2.615510663644842
+    Node 16    5.567246602258485
+    Node 17    0.34189418036257324
+    Node 18    -2.8788749009362804
+    Node 19    -4.073760764180443
+    Node 20    -1.023516114157248
+    Node 21    2.0215218255530236
+    Node 22    -0.5332628868100089
+    Node 23    -1.2983558651910945
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.8921283377576232
+    Node 4    -2.5736712574872658
+    Node 5    0.29273620889414276
+    Node 6    -0.877431898584474
+    Node 7    -0.262080255455237
+    Node 8    -3.6255544707403344
+    Node 9    -2.2621478655757015
+    Node 10    2.274650076267759
+    Node 11    -1.380255373001376
+    Node 12    -3.3601754779844906
+    Node 13    -3.645111054382021
+    Node 14    1.2755861108884798
+    Node 15    1.1993886997905852
+    Node 16    -3.6262362624519975
+    Node 17    0.7051147910198435
+    Node 18    -0.11468113266074037
+    Node 19    1.996593611427922
+    Node 20    0.8882292102198858
+    Node 21    -4.5690189600643025
+    Node 22    -3.091710187995195
+    Node 23    0.28463352689693555
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.5268609821229441
+    Attrib braga @diariogaucho    -1.7106365418533023
+    Attrib cacalo @diariogaucho    -1.7374775011017345
+    Attrib Copa de    -1.0133802301517276
+    Attrib time de    -1.1342360932879136
+    Attrib jogo de    -1.063581836312773
+    Attrib nÃ£o poder    -0.2880729796794086
+    Attrib de futebol    0.4361809264636349
+    Attrib final de    2.056962622078662
+    Attrib depois de    1.661602615188326
+    Attrib antes de    1.347777894529869
+    Attrib De_acordo com    -0.012686568318065104
+    Attrib casa de    0.13334267835342842
+    Attrib em Porto_Alegre    -0.04147998647647008
+    Attrib tiro em    1.538386998041914
+    Attrib de droga    1.3020698920609959
+    Attrib noite de    -0.15899734405930283
+    Attrib de homicÃ­dio    -0.01957480982054402
+    Attrib manhÃ£ de    1.0424199241081087
+    Attrib tarde de    1.4575316138874952
+    Attrib de casa    1.7381374945005357
+    Attrib munhoz @diariogaucho    0.027849429217918623
+    Attrib dono de    1.1469501014167047
+    Attrib morador de    1.7852630341185807
+    Attrib por Tiago_Rech    0.02308047466651833
+    Attrib prefeitura de    -0.222487420534946
+    Attrib parte de    1.4653159815658416
+    Attrib rede de    0.8163592698925581
+    Attrib de lixo    0.17330151514371805
+    Attrib baldo @diariogaucho    -2.248111111556869
+    Attrib auxiliar de    -2.2584577871956943
+    Attrib de trabalho    -0.7931968198726221
+    Attrib tÃ©cnico em    -0.8895572371637801
+    Attrib de R$    2.5949748732747073
+    Attrib vaga em    -2.1549009714982064
+    Attrib curso de    -1.8819393604696906
+    Attrib Auxiliar de    -0.6628515339872608
+    Attrib Ã¡rea de    -0.23760024837820232
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.03892232169166417
+    Attrib braga @diariogaucho    -0.33963112012945634
+    Attrib cacalo @diariogaucho    -0.29898435623099784
+    Attrib Copa de    -0.5232581299112427
+    Attrib time de    -0.10046359010311622
+    Attrib jogo de    -0.2732815316749924
+    Attrib nÃ£o poder    -0.05379897736237939
+    Attrib de futebol    -0.48058880888528444
+    Attrib final de    0.9522719966668984
+    Attrib depois de    0.09169171808950796
+    Attrib antes de    -0.44120505451062875
+    Attrib De_acordo com    -0.044187018102127995
+    Attrib casa de    1.1504803001471564
+    Attrib em Porto_Alegre    0.035531238151517416
+    Attrib tiro em    -0.15917638423989347
+    Attrib de droga    0.3101720525743969
+    Attrib noite de    0.45962026418779733
+    Attrib de homicÃ­dio    0.15179135484938835
+    Attrib manhÃ£ de    0.14647524309020984
+    Attrib tarde de    0.037209685552253846
+    Attrib de casa    0.9358393211962915
+    Attrib munhoz @diariogaucho    -0.0050612242270706015
+    Attrib dono de    0.037711124117129874
+    Attrib morador de    0.33209233322537585
+    Attrib por Tiago_Rech    -0.020952558738263394
+    Attrib prefeitura de    -0.14288692094965733
+    Attrib parte de    0.06026700021224907
+    Attrib rede de    0.0716585130519596
+    Attrib de lixo    -0.4253566293411654
+    Attrib baldo @diariogaucho    0.5328032483849561
+    Attrib auxiliar de    0.1599397988698955
+    Attrib de trabalho    0.27562429117877757
+    Attrib tÃ©cnico em    -0.02288760506495312
+    Attrib de R$    0.2530373576370929
+    Attrib vaga em    0.2185039950280889
+    Attrib curso de    0.4460068210762455
+    Attrib Auxiliar de    0.10396593967378727
+    Attrib Ã¡rea de    0.5123599398544265
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.29943269123812455
+    Attrib braga @diariogaucho    1.4908831767351227
+    Attrib cacalo @diariogaucho    1.7380302972989894
+    Attrib Copa de    0.8465541446089644
+    Attrib time de    0.3861044670725855
+    Attrib jogo de    1.3480705330296825
+    Attrib nÃ£o poder    0.33014075586349684
+    Attrib de futebol    0.4535706059962932
+    Attrib final de    -0.7182574941337214
+    Attrib depois de    0.7707947720119104
+    Attrib antes de    0.27859007352523196
+    Attrib De_acordo com    -0.03230089670531895
+    Attrib casa de    -0.7578300792216752
+    Attrib em Porto_Alegre    0.03149804207835803
+    Attrib tiro em    -0.1824100971420435
+    Attrib de droga    -0.12534750626022098
+    Attrib noite de    0.21135707124453595
+    Attrib de homicÃ­dio    -0.23945565808813293
+    Attrib manhÃ£ de    0.3999329101768126
+    Attrib tarde de    0.517255522988573
+    Attrib de casa    -1.308229161489365
+    Attrib munhoz @diariogaucho    -0.039421041290541636
+    Attrib dono de    -0.7733339360823436
+    Attrib morador de    -1.0699989787785467
+    Attrib por Tiago_Rech    0.03416375878022265
+    Attrib prefeitura de    -0.5319634698628714
+    Attrib parte de    0.7615491044723853
+    Attrib rede de    -0.7114655777824435
+    Attrib de lixo    -0.7030702330318417
+    Attrib baldo @diariogaucho    0.307687018360566
+    Attrib auxiliar de    0.2615369799496488
+    Attrib de trabalho    -0.04417437852837294
+    Attrib tÃ©cnico em    -0.6228407498848064
+    Attrib de R$    0.050571620921528095
+    Attrib vaga em    0.7277339173563404
+    Attrib curso de    0.22734669126248905
+    Attrib Auxiliar de    -0.39170195675703684
+    Attrib Ã¡rea de    -0.25847829314882625
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.06632365809992777
+    Attrib braga @diariogaucho    -0.12599499994058805
+    Attrib cacalo @diariogaucho    -0.10812890965928185
+    Attrib Copa de    -0.2601014966644965
+    Attrib time de    0.09824670225621901
+    Attrib jogo de    -0.14350821697521268
+    Attrib nÃ£o poder    0.06743546192716036
+    Attrib de futebol    -0.0625664696248962
+    Attrib final de    -0.3582985563869171
+    Attrib depois de    0.4677965455753401
+    Attrib antes de    -0.1820706102183688
+    Attrib De_acordo com    -0.00875218453257988
+    Attrib casa de    0.02739930837773813
+    Attrib em Porto_Alegre    -0.020766098081923968
+    Attrib tiro em    -0.26588333820566495
+    Attrib de droga    -0.10498394068021207
+    Attrib noite de    -0.08150536652071752
+    Attrib de homicÃ­dio    -0.1968458154413087
+    Attrib manhÃ£ de    -0.6297908880194457
+    Attrib tarde de    -0.2530891673092371
+    Attrib de casa    0.2382049412971628
+    Attrib munhoz @diariogaucho    -0.01297483405272374
+    Attrib dono de    0.4772357592318634
+    Attrib morador de    0.16738115831759823
+    Attrib por Tiago_Rech    0.00931232933367504
+    Attrib prefeitura de    0.2829060450052318
+    Attrib parte de    0.4186160994112704
+    Attrib rede de    0.5844202730406666
+    Attrib de lixo    0.4755177125319627
+    Attrib baldo @diariogaucho    0.7352968385399014
+    Attrib auxiliar de    0.28889667382127526
+    Attrib de trabalho    0.31531260452542387
+    Attrib tÃ©cnico em    0.10484794235675761
+    Attrib de R$    -0.09001780959746095
+    Attrib vaga em    0.2558915619994925
+    Attrib curso de    0.37986362266991414
+    Attrib Auxiliar de    0.1661884651496272
+    Attrib Ã¡rea de    0.22473789186854723
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.030306294939850223
+    Attrib braga @diariogaucho    -0.7587170738686508
+    Attrib cacalo @diariogaucho    -1.042055699816528
+    Attrib Copa de    0.16455686112575985
+    Attrib time de    -0.15293716839288937
+    Attrib jogo de    -0.6604767861662212
+    Attrib nÃ£o poder    0.03696212722148258
+    Attrib de futebol    1.9455753255000032
+    Attrib final de    0.07348790961594247
+    Attrib depois de    0.4810599702570092
+    Attrib antes de    -1.3676593429247916
+    Attrib De_acordo com    0.015039736905326812
+    Attrib casa de    0.06531879365729702
+    Attrib em Porto_Alegre    -0.005717517701489795
+    Attrib tiro em    0.011287028183450504
+    Attrib de droga    -0.22120888264400748
+    Attrib noite de    -1.1352672028752324
+    Attrib de homicÃ­dio    -0.15469754341493186
+    Attrib manhÃ£ de    -1.8608979488728337
+    Attrib tarde de    -1.4049572415244742
+    Attrib de casa    1.824185668015192
+    Attrib munhoz @diariogaucho    -8.908563066324232E-4
+    Attrib dono de    2.3315996106904593
+    Attrib morador de    3.398714650783673
+    Attrib por Tiago_Rech    -0.018763345851272286
+    Attrib prefeitura de    0.8029785616289776
+    Attrib parte de    0.6841613055620018
+    Attrib rede de    0.8332674317836951
+    Attrib de lixo    2.3353497493295867
+    Attrib baldo @diariogaucho    -0.9978316415876307
+    Attrib auxiliar de    0.7565539152407185
+    Attrib de trabalho    0.1127971165524652
+    Attrib tÃ©cnico em    0.15942460144990286
+    Attrib de R$    -0.22767419593355617
+    Attrib vaga em    -0.6736129125013683
+    Attrib curso de    -1.5423343919125463
+    Attrib Auxiliar de    -0.037039275388000566
+    Attrib Ã¡rea de    -0.12796958361101762
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.6253419189944424
+    Attrib braga @diariogaucho    1.111659679604756
+    Attrib cacalo @diariogaucho    0.9991519809834827
+    Attrib Copa de    0.5354157441646008
+    Attrib time de    -0.2678423888355507
+    Attrib jogo de    0.4096580324801661
+    Attrib nÃ£o poder    -0.18064310450894908
+    Attrib de futebol    -0.07900703149958309
+    Attrib final de    -0.2867464207149663
+    Attrib depois de    -1.2086393791146215
+    Attrib antes de    0.0468700549818241
+    Attrib De_acordo com    0.02116304294879076
+    Attrib casa de    1.9331334012967618
+    Attrib em Porto_Alegre    0.024049499730135288
+    Attrib tiro em    0.9684708997759927
+    Attrib de droga    0.8126408736617187
+    Attrib noite de    0.7356869825373118
+    Attrib de homicÃ­dio    0.1969703719424469
+    Attrib manhÃ£ de    1.4681446911609688
+    Attrib tarde de    1.7068119255818837
+    Attrib de casa    -0.1372850275402506
+    Attrib munhoz @diariogaucho    0.034556086635772296
+    Attrib dono de    -0.12363666359555439
+    Attrib morador de    1.2546618150062503
+    Attrib por Tiago_Rech    0.01409132973725942
+    Attrib prefeitura de    -1.0012784570776845
+    Attrib parte de    0.5582748948109058
+    Attrib rede de    -0.6406893438334988
+    Attrib de lixo    -1.321661758945573
+    Attrib baldo @diariogaucho    -1.3919491268426352
+    Attrib auxiliar de    -1.9197478692372583
+    Attrib de trabalho    -0.7344584027477218
+    Attrib tÃ©cnico em    -1.3029331664802628
+    Attrib de R$    2.24227892180399
+    Attrib vaga em    -0.3846387279365767
+    Attrib curso de    -0.8830085346917084
+    Attrib Auxiliar de    -0.7663148505948252
+    Attrib Ã¡rea de    -0.9118281927085706
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.9147257991589007
+    Attrib braga @diariogaucho    -0.5202329599091119
+    Attrib cacalo @diariogaucho    -0.9958496727629456
+    Attrib Copa de    -0.6219279735351642
+    Attrib time de    0.324472954244584
+    Attrib jogo de    -0.25914955649062626
+    Attrib nÃ£o poder    0.5423180785454937
+    Attrib de futebol    -0.06808427341825744
+    Attrib final de    -3.408459476811454
+    Attrib depois de    1.5825367745875767
+    Attrib antes de    -3.3666775833141913
+    Attrib De_acordo com    0.04422272471528414
+    Attrib casa de    -2.5903810655346446
+    Attrib em Porto_Alegre    0.04604162810362551
+    Attrib tiro em    -1.6965254781715404
+    Attrib de droga    -1.6030460227195427
+    Attrib noite de    -0.757986989024111
+    Attrib de homicÃ­dio    -0.043974870013760096
+    Attrib manhÃ£ de    -2.1474998949821593
+    Attrib tarde de    -2.6959780753319507
+    Attrib de casa    -1.613974476715149
+    Attrib munhoz @diariogaucho    0.004969639784595671
+    Attrib dono de    0.8606492220661928
+    Attrib morador de    1.6357236387902439
+    Attrib por Tiago_Rech    -0.03081255527877416
+    Attrib prefeitura de    1.4134878701632108
+    Attrib parte de    -1.5618289540293993
+    Attrib rede de    0.18590317398630804
+    Attrib de lixo    2.0610271104210374
+    Attrib baldo @diariogaucho    2.2060729633812195
+    Attrib auxiliar de    2.256341098121264
+    Attrib de trabalho    1.4740269604067855
+    Attrib tÃ©cnico em    0.60939245230016
+    Attrib de R$    0.41071328235198534
+    Attrib vaga em    0.8198997217559999
+    Attrib curso de    1.8964136288062188
+    Attrib Auxiliar de    1.3185791910767246
+    Attrib Ã¡rea de    0.37198923456403726
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.11451219094686828
+    Attrib braga @diariogaucho    -0.4307170186321403
+    Attrib cacalo @diariogaucho    -0.3079985746510546
+    Attrib Copa de    -0.11188343134409391
+    Attrib time de    -0.17610544579604895
+    Attrib jogo de    -0.4832117187569045
+    Attrib nÃ£o poder    0.088872046144779
+    Attrib de futebol    0.2256654740453911
+    Attrib final de    1.1061783911972685
+    Attrib depois de    1.272710535741336
+    Attrib antes de    1.5000321813474708
+    Attrib De_acordo com    0.04493603566539038
+    Attrib casa de    1.4890142787991596
+    Attrib em Porto_Alegre    -0.0010030853127451778
+    Attrib tiro em    0.4659768739155015
+    Attrib de droga    0.18701662512866576
+    Attrib noite de    -0.48221240163109547
+    Attrib de homicÃ­dio    -0.06204548336183072
+    Attrib manhÃ£ de    -0.19310417092394494
+    Attrib tarde de    0.16697355354481885
+    Attrib de casa    -0.12134759915319106
+    Attrib munhoz @diariogaucho    0.037512613065152994
+    Attrib dono de    0.5021491894753924
+    Attrib morador de    0.9489974285318385
+    Attrib por Tiago_Rech    0.01200582070409889
+    Attrib prefeitura de    0.20260712163597078
+    Attrib parte de    -0.2598438385499762
+    Attrib rede de    0.0733271691557635
+    Attrib de lixo    0.7713583145221609
+    Attrib baldo @diariogaucho    -0.6456315193841436
+    Attrib auxiliar de    -0.29518418372017413
+    Attrib de trabalho    -0.03180774596713256
+    Attrib tÃ©cnico em    -0.3482307010965736
+    Attrib de R$    0.08084992761886495
+    Attrib vaga em    -0.7221721901707557
+    Attrib curso de    -0.6879287213575329
+    Attrib Auxiliar de    -0.29831788407904714
+    Attrib Ã¡rea de    0.4162986622505194
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    1.3282199892826672
+    Attrib braga @diariogaucho    1.7998523944635565
+    Attrib cacalo @diariogaucho    2.201546666354753
+    Attrib Copa de    1.7146795068551504
+    Attrib time de    -0.4629027943674407
+    Attrib jogo de    0.8499001086147185
+    Attrib nÃ£o poder    -0.739760787528747
+    Attrib de futebol    0.4072958515760426
+    Attrib final de    0.32220568629747215
+    Attrib depois de    2.4904158717129667
+    Attrib antes de    -0.140522001837785
+    Attrib De_acordo com    0.011909221436572338
+    Attrib casa de    0.3438870263979677
+    Attrib em Porto_Alegre    0.02278381148664055
+    Attrib tiro em    1.5617715631951754
+    Attrib de droga    1.815756709109436
+    Attrib noite de    1.1841796214288047
+    Attrib de homicÃ­dio    -0.15241273331115016
+    Attrib manhÃ£ de    2.1839492957701663
+    Attrib tarde de    2.5969857820815636
+    Attrib de casa    2.965618299151636
+    Attrib munhoz @diariogaucho    0.011035160387387069
+    Attrib dono de    -0.6462840725366616
+    Attrib morador de    -0.004799339252201936
+    Attrib por Tiago_Rech    0.0488210621254911
+    Attrib prefeitura de    -1.676101542331028
+    Attrib parte de    1.719430215142179
+    Attrib rede de    -1.344031367504745
+    Attrib de lixo    -2.240580818503217
+    Attrib baldo @diariogaucho    -2.1746615075942977
+    Attrib auxiliar de    -2.229908867623926
+    Attrib de trabalho    -1.7010934238066029
+    Attrib tÃ©cnico em    -1.5441968380138538
+    Attrib de R$    -0.4265120399909801
+    Attrib vaga em    -0.23218762038973817
+    Attrib curso de    -1.783291467278226
+    Attrib Auxiliar de    -1.4247648352612752
+    Attrib Ã¡rea de    0.027208676322683076
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    0.391086461207772
+    Attrib braga @diariogaucho    3.103916961807079
+    Attrib cacalo @diariogaucho    2.870516805842066
+    Attrib Copa de    3.129501771847497
+    Attrib time de    0.47996711154712224
+    Attrib jogo de    2.0020913294643914
+    Attrib nÃ£o poder    0.23267303388906194
+    Attrib de futebol    0.757850307523913
+    Attrib final de    0.5251510142473161
+    Attrib depois de    -0.1371630858479246
+    Attrib antes de    1.230028376891624
+    Attrib De_acordo com    0.022152184862407637
+    Attrib casa de    -0.6058378861720264
+    Attrib em Porto_Alegre    -0.0058392453575106945
+    Attrib tiro em    -0.6994538282631114
+    Attrib de droga    -0.6871116985871933
+    Attrib noite de    0.19360775791661727
+    Attrib de homicÃ­dio    -0.6187594185426272
+    Attrib manhÃ£ de    -0.13646444434721874
+    Attrib tarde de    -0.3153325979852019
+    Attrib de casa    -0.7464359465468055
+    Attrib munhoz @diariogaucho    0.00968712592096379
+    Attrib dono de    -0.7111975212914492
+    Attrib morador de    -0.8292303643153911
+    Attrib por Tiago_Rech    -0.026150173358003362
+    Attrib prefeitura de    -0.54931191026114
+    Attrib parte de    -0.24494500294791552
+    Attrib rede de    -0.7010756238522946
+    Attrib de lixo    -0.1026416525569553
+    Attrib baldo @diariogaucho    -0.8514316825447743
+    Attrib auxiliar de    -0.0453815134617908
+    Attrib de trabalho    -1.1560954093540527
+    Attrib tÃ©cnico em    0.46058741213543297
+    Attrib de R$    -0.7045666753565133
+    Attrib vaga em    1.2676320252597653
+    Attrib curso de    -0.675013891866206
+    Attrib Auxiliar de    -0.8998335950174587
+    Attrib Ã¡rea de    -0.3473756331144488
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.4909629215315092
+    Attrib braga @diariogaucho    -1.1578064302991256
+    Attrib cacalo @diariogaucho    -0.941354060767795
+    Attrib Copa de    -1.4330615679881515
+    Attrib time de    -0.0018506768914132031
+    Attrib jogo de    -0.4718561008639111
+    Attrib nÃ£o poder    -0.8456182088944451
+    Attrib de futebol    -1.155618357745827
+    Attrib final de    0.24837018853111228
+    Attrib depois de    -0.18278556067976123
+    Attrib antes de    -1.7909716072930024
+    Attrib De_acordo com    -0.047200630071429966
+    Attrib casa de    0.37888002454973047
+    Attrib em Porto_Alegre    -0.00767848523355804
+    Attrib tiro em    0.15971292095323095
+    Attrib de droga    0.8814794715271427
+    Attrib noite de    1.03942853463792
+    Attrib de homicÃ­dio    0.8655278635397278
+    Attrib manhÃ£ de    0.4227924572912242
+    Attrib tarde de    0.6167860222260516
+    Attrib de casa    0.10202387144535223
+    Attrib munhoz @diariogaucho    0.020820145033087573
+    Attrib dono de    -0.8664082835923103
+    Attrib morador de    0.2366030555715756
+    Attrib por Tiago_Rech    0.00776189539024548
+    Attrib prefeitura de    0.009926590310540693
+    Attrib parte de    -0.34494448633683394
+    Attrib rede de    -0.220117925026893
+    Attrib de lixo    -0.9539101857325499
+    Attrib baldo @diariogaucho    1.2808074129315328
+    Attrib auxiliar de    0.2250702285924794
+    Attrib de trabalho    0.39764349411719674
+    Attrib tÃ©cnico em    -0.014977924285917482
+    Attrib de R$    0.5447571754074818
+    Attrib vaga em    0.11173839711144308
+    Attrib curso de    1.285985664565372
+    Attrib Auxiliar de    0.7572399803616092
+    Attrib Ã¡rea de    -0.47011077195622275
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.3863591506274933
+    Attrib braga @diariogaucho    0.22943582593338968
+    Attrib cacalo @diariogaucho    0.699111107262799
+    Attrib Copa de    -0.3436825740854937
+    Attrib time de    0.4588963806405944
+    Attrib jogo de    0.3109242991682369
+    Attrib nÃ£o poder    -0.21506628865350044
+    Attrib de futebol    -0.6359459081113938
+    Attrib final de    -0.639746924884629
+    Attrib depois de    0.4385270765882028
+    Attrib antes de    -0.5601926405295481
+    Attrib De_acordo com    -0.0346520357090585
+    Attrib casa de    -0.5243751255505978
+    Attrib em Porto_Alegre    -0.026564459970696997
+    Attrib tiro em    -0.4528746322208332
+    Attrib de droga    -0.10912721345666475
+    Attrib noite de    0.3989067057351182
+    Attrib de homicÃ­dio    0.22244953206289392
+    Attrib manhÃ£ de    -0.4118677322738928
+    Attrib tarde de    0.2516217767130702
+    Attrib de casa    -1.3984052866170098
+    Attrib munhoz @diariogaucho    -0.01762065946648441
+    Attrib dono de    -1.1680571747327357
+    Attrib morador de    -1.3796557139069263
+    Attrib por Tiago_Rech    0.043228802776376
+    Attrib prefeitura de    -0.058088800021303455
+    Attrib parte de    -0.3755853057713264
+    Attrib rede de    -0.11034916162942741
+    Attrib de lixo    -1.0171507285502568
+    Attrib baldo @diariogaucho    1.7532970345395786
+    Attrib auxiliar de    1.0123645827050292
+    Attrib de trabalho    0.8687744893340489
+    Attrib tÃ©cnico em    0.6851405085422738
+    Attrib de R$    -0.7253382745289392
+    Attrib vaga em    0.9474831858247313
+    Attrib curso de    1.8762421302240813
+    Attrib Auxiliar de    0.4996187522918409
+    Attrib Ã¡rea de    0.5809534400188135
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    0.6620084876718166
+    Attrib braga @diariogaucho    0.6853538432385106
+    Attrib cacalo @diariogaucho    1.775535930872836
+    Attrib Copa de    0.6395672115323113
+    Attrib time de    0.18431576172453412
+    Attrib jogo de    -0.4053186706063687
+    Attrib nÃ£o poder    1.7436273225889882
+    Attrib de futebol    3.2891066815093346
+    Attrib final de    0.8914257346542745
+    Attrib depois de    1.1471992343431543
+    Attrib antes de    -0.12131930340930511
+    Attrib De_acordo com    -0.040752802388945145
+    Attrib casa de    -3.8925988774578015
+    Attrib em Porto_Alegre    0.02433761962027571
+    Attrib tiro em    -1.479995875035084
+    Attrib de droga    -1.3450694304579518
+    Attrib noite de    -0.9059815722656791
+    Attrib de homicÃ­dio    -3.0315526836276705
+    Attrib manhÃ£ de    -2.8292901937802677
+    Attrib tarde de    -1.8641014282369788
+    Attrib de casa    2.570682044534267
+    Attrib munhoz @diariogaucho    0.015220020007687463
+    Attrib dono de    2.482117489422855
+    Attrib morador de    1.4017665777355353
+    Attrib por Tiago_Rech    -0.039098632909802034
+    Attrib prefeitura de    0.9726125433775717
+    Attrib parte de    2.137799889314042
+    Attrib rede de    2.534307826577347
+    Attrib de lixo    2.659303815870477
+    Attrib baldo @diariogaucho    -1.7374356380211469
+    Attrib auxiliar de    1.116861254569596
+    Attrib de trabalho    0.134428695935672
+    Attrib tÃ©cnico em    1.342555623408322
+    Attrib de R$    -1.1697673775531527
+    Attrib vaga em    -0.8308387395148301
+    Attrib curso de    -0.9672978440698002
+    Attrib Auxiliar de    -0.6507825187336248
+    Attrib Ã¡rea de    0.3415458673257116
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.551329979537037
+    Attrib braga @diariogaucho    -0.4650050521942695
+    Attrib cacalo @diariogaucho    -0.32883991233129234
+    Attrib Copa de    -0.8141789836737579
+    Attrib time de    0.30019542450909115
+    Attrib jogo de    -0.26757003525117984
+    Attrib nÃ£o poder    0.3195119204177709
+    Attrib de futebol    -0.15966091036813115
+    Attrib final de    -1.3374444540568744
+    Attrib depois de    0.37551508927828353
+    Attrib antes de    -1.352654614632374
+    Attrib De_acordo com    0.0439753944487669
+    Attrib casa de    -0.0904227736842101
+    Attrib em Porto_Alegre    0.018879759057924717
+    Attrib tiro em    -0.8231614759728254
+    Attrib de droga    -0.671085426553383
+    Attrib noite de    -0.10753024733749178
+    Attrib de homicÃ­dio    0.12820083223988485
+    Attrib manhÃ£ de    -1.442509334569896
+    Attrib tarde de    -1.0423726916241125
+    Attrib de casa    -0.05558804255175753
+    Attrib munhoz @diariogaucho    0.03762587144226595
+    Attrib dono de    0.03863282871788083
+    Attrib morador de    0.2981653822683564
+    Attrib por Tiago_Rech    0.028404065090265537
+    Attrib prefeitura de    0.7709020739428338
+    Attrib parte de    0.22472540328976914
+    Attrib rede de    0.5217857344222353
+    Attrib de lixo    0.6447954445876541
+    Attrib baldo @diariogaucho    1.6507204092678196
+    Attrib auxiliar de    1.2201145902811572
+    Attrib de trabalho    1.1022645201063297
+    Attrib tÃ©cnico em    0.2940018388596985
+    Attrib de R$    -0.5833698909296083
+    Attrib vaga em    0.7904827972606354
+    Attrib curso de    1.3233409199247443
+    Attrib Auxiliar de    0.899911120958746
+    Attrib Ã¡rea de    0.38288847160365874
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.1063141327124596
+    Attrib braga @diariogaucho    1.4839032371347534
+    Attrib cacalo @diariogaucho    1.673833078035625
+    Attrib Copa de    0.5350298445677933
+    Attrib time de    0.5396938528131465
+    Attrib jogo de    1.259677595710563
+    Attrib nÃ£o poder    0.5517626966615725
+    Attrib de futebol    0.19658952087223946
+    Attrib final de    -0.5683930971375328
+    Attrib depois de    0.5709888457715085
+    Attrib antes de    0.12854922358797685
+    Attrib De_acordo com    0.0252455124679251
+    Attrib casa de    -0.633887368112314
+    Attrib em Porto_Alegre    -0.039804917072139616
+    Attrib tiro em    -0.5626723572683534
+    Attrib de droga    -0.3602922105725604
+    Attrib noite de    0.07046804082388373
+    Attrib de homicÃ­dio    -0.2561079342749818
+    Attrib manhÃ£ de    -0.24373309201693943
+    Attrib tarde de    -0.0025375030850758383
+    Attrib de casa    -1.2910866409490875
+    Attrib munhoz @diariogaucho    0.025550506530299485
+    Attrib dono de    -0.8295838035903763
+    Attrib morador de    -1.1979653551831064
+    Attrib por Tiago_Rech    -0.036745317309650416
+    Attrib prefeitura de    -0.3332636501413746
+    Attrib parte de    0.5312862329365367
+    Attrib rede de    -0.5853094347194944
+    Attrib de lixo    -0.778834452223254
+    Attrib baldo @diariogaucho    0.9215234545189332
+    Attrib auxiliar de    0.7272037218796361
+    Attrib de trabalho    0.20430250632273236
+    Attrib tÃ©cnico em    -0.20898064224205004
+    Attrib de R$    -0.4630476064613889
+    Attrib vaga em    0.922275879086438
+    Attrib curso de    0.7594184416297668
+    Attrib Auxiliar de    -0.12642008923696427
+    Attrib Ã¡rea de    0.03179710950805992
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.670264989489817
+    Attrib braga @diariogaucho    1.4700451830430374
+    Attrib cacalo @diariogaucho    1.8951347070315923
+    Attrib Copa de    0.635682634090476
+    Attrib time de    1.136030066952494
+    Attrib jogo de    1.0703318627281386
+    Attrib nÃ£o poder    -0.16965172361668654
+    Attrib de futebol    -1.3967202645865342
+    Attrib final de    -2.2611773418510044
+    Attrib depois de    0.22662611300208457
+    Attrib antes de    -1.591735984182288
+    Attrib De_acordo com    -0.03120356920347136
+    Attrib casa de    -1.9472768031418908
+    Attrib em Porto_Alegre    0.025615262801286273
+    Attrib tiro em    -1.3162499538253847
+    Attrib de droga    -0.8835652759846334
+    Attrib noite de    0.5097744156912869
+    Attrib de homicÃ­dio    0.23901095414699824
+    Attrib manhÃ£ de    -0.926316875130311
+    Attrib tarde de    -0.7895764685030268
+    Attrib de casa    -3.0226409269595256
+    Attrib munhoz @diariogaucho    -0.03990466606129988
+    Attrib dono de    -2.395789568977527
+    Attrib morador de    -0.040771919051462754
+    Attrib por Tiago_Rech    0.04887711778148335
+    Attrib prefeitura de    0.008525221365154009
+    Attrib parte de    -1.891444104885464
+    Attrib rede de    0.04380522968578039
+    Attrib de lixo    -1.1178321634327577
+    Attrib baldo @diariogaucho    2.2190714546006998
+    Attrib auxiliar de    0.7555639346909941
+    Attrib de trabalho    1.0932116754241656
+    Attrib tÃ©cnico em    -0.308564248767844
+    Attrib de R$    0.4681304056893569
+    Attrib vaga em    1.9160432718073679
+    Attrib curso de    1.8343388594714252
+    Attrib Auxiliar de    0.8860811729894751
+    Attrib Ã¡rea de    -0.5438156049996219
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -0.33543417289758776
+    Attrib braga @diariogaucho    -1.0742417918020477
+    Attrib cacalo @diariogaucho    -0.9545169273295251
+    Attrib Copa de    -1.2548508931460005
+    Attrib time de    -0.08700723479687118
+    Attrib jogo de    -0.6015540688734298
+    Attrib nÃ£o poder    -0.3851550610707529
+    Attrib de futebol    -0.6723843211971994
+    Attrib final de    0.7256773728368716
+    Attrib depois de    0.14536810918924833
+    Attrib antes de    -1.1520227736033983
+    Attrib De_acordo com    0.04556775564627284
+    Attrib casa de    0.2840356537923413
+    Attrib em Porto_Alegre    -0.004620693866153949
+    Attrib tiro em    0.2880384023355217
+    Attrib de droga    0.6325702518507713
+    Attrib noite de    0.4390304109356523
+    Attrib de homicÃ­dio    0.7416335693135563
+    Attrib manhÃ£ de    0.49155572582664564
+    Attrib tarde de    0.4325117833116731
+    Attrib de casa    0.2810004054514415
+    Attrib munhoz @diariogaucho    -0.04046473938658285
+    Attrib dono de    -0.5078321522425613
+    Attrib morador de    -0.41033069584928006
+    Attrib por Tiago_Rech    0.014041754198593229
+    Attrib prefeitura de    0.08438194545563496
+    Attrib parte de    -0.18277496750547134
+    Attrib rede de    0.0303972004826328
+    Attrib de lixo    -0.5907770863239367
+    Attrib baldo @diariogaucho    0.9156824578426033
+    Attrib auxiliar de    0.2545324351531832
+    Attrib de trabalho    0.4530778910552456
+    Attrib tÃ©cnico em    -0.0404022012497336
+    Attrib de R$    0.6476282108957147
+    Attrib vaga em    0.07703509398840833
+    Attrib curso de    1.0968313681766635
+    Attrib Auxiliar de    0.6417756150360572
+    Attrib Ã¡rea de    0.24277030027314392
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    1.0856114271941295
+    Attrib braga @diariogaucho    2.2496829334358144
+    Attrib cacalo @diariogaucho    1.568932378354877
+    Attrib Copa de    2.339990501399254
+    Attrib time de    -0.1554867489942285
+    Attrib jogo de    0.9123298597673706
+    Attrib nÃ£o poder    0.9649921624339792
+    Attrib de futebol    1.6062382107871815
+    Attrib final de    1.743810713018695
+    Attrib depois de    -0.036943788200963855
+    Attrib antes de    2.1032704121303656
+    Attrib De_acordo com    -0.046050325498696365
+    Attrib casa de    2.447480739818391
+    Attrib em Porto_Alegre    0.04729296175014841
+    Attrib tiro em    -0.8870247278079824
+    Attrib de droga    -1.3627673069666788
+    Attrib noite de    -0.7692386230167667
+    Attrib de homicÃ­dio    -1.520017373426157
+    Attrib manhÃ£ de    -0.6253781817550413
+    Attrib tarde de    -0.8533419796851647
+    Attrib de casa    -0.9208674078520355
+    Attrib munhoz @diariogaucho    -0.01930150803922827
+    Attrib dono de    1.2388954505891627
+    Attrib morador de    1.2741170553727947
+    Attrib por Tiago_Rech    -0.021139403844695395
+    Attrib prefeitura de    -0.5798590922012032
+    Attrib parte de    0.44466531095668
+    Attrib rede de    -0.5106182804017294
+    Attrib de lixo    1.6283158095447734
+    Attrib baldo @diariogaucho    -1.914490672175108
+    Attrib auxiliar de    0.6497239750234468
+    Attrib de trabalho    -0.6790873528460079
+    Attrib tÃ©cnico em    0.3314529589835573
+    Attrib de R$    -0.9984789816469511
+    Attrib vaga em    0.27446693075979695
+    Attrib curso de    -1.7538144379643694
+    Attrib Auxiliar de    -1.638164968147088
+    Attrib Ã¡rea de    0.21595186456509485
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    0.23252252060592904
+    Attrib braga @diariogaucho    -2.05030545932593
+    Attrib cacalo @diariogaucho    -1.6452757750776321
+    Attrib Copa de    -1.1218820866538406
+    Attrib time de    -1.4003511353555818
+    Attrib jogo de    -0.9552189927797237
+    Attrib nÃ£o poder    -1.5437404601851585
+    Attrib de futebol    -0.5844437492097239
+    Attrib final de    -1.4374256510461434
+    Attrib depois de    3.307144375528265
+    Attrib antes de    1.245258235314058
+    Attrib De_acordo com    -0.028992642954101845
+    Attrib casa de    -1.6801503703391951
+    Attrib em Porto_Alegre    -0.019449302038311713
+    Attrib tiro em    2.661533662005593
+    Attrib de droga    1.9774659507540182
+    Attrib noite de    0.34886135967357035
+    Attrib de homicÃ­dio    0.35574136676402734
+    Attrib manhÃ£ de    3.4074208696203203
+    Attrib tarde de    2.8361780702392605
+    Attrib de casa    2.5723934604429823
+    Attrib munhoz @diariogaucho    0.007343610517391408
+    Attrib dono de    -0.41093671608370896
+    Attrib morador de    2.098884986578524
+    Attrib por Tiago_Rech    0.022965386679088026
+    Attrib prefeitura de    -0.2974038557030285
+    Attrib parte de    2.5152462428623865
+    Attrib rede de    1.8232009074045021
+    Attrib de lixo    0.0730696842042623
+    Attrib baldo @diariogaucho    -1.9365368435804784
+    Attrib auxiliar de    -1.4246794720871139
+    Attrib de trabalho    -1.383321468964541
+    Attrib tÃ©cnico em    -0.515064258564998
+    Attrib de R$    -0.7914960232331799
+    Attrib vaga em    -1.6317940112270746
+    Attrib curso de    -1.4453773194803494
+    Attrib Auxiliar de    -0.4968470964107698
+    Attrib Ã¡rea de    -0.4072022228768948
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -0.33470498445296204
+    Attrib braga @diariogaucho    -1.0688819095449473
+    Attrib cacalo @diariogaucho    -1.2661500929344927
+    Attrib Copa de    -1.108095345926878
+    Attrib time de    -0.39215581084638457
+    Attrib jogo de    -0.42161994268645436
+    Attrib nÃ£o poder    -1.205977011925288
+    Attrib de futebol    -1.1807304004185124
+    Attrib final de    0.14317026480078793
+    Attrib depois de    -0.6390094470400349
+    Attrib antes de    0.2061867035896859
+    Attrib De_acordo com    0.013221703039662039
+    Attrib casa de    1.7523721425749814
+    Attrib em Porto_Alegre    -0.027934338574191
+    Attrib tiro em    1.266404697014856
+    Attrib de droga    1.0502564024835987
+    Attrib noite de    0.9262385555619983
+    Attrib de homicÃ­dio    1.3108656387986442
+    Attrib manhÃ£ de    2.011917802167722
+    Attrib tarde de    1.2784531407617288
+    Attrib de casa    -0.9162998621184343
+    Attrib munhoz @diariogaucho    -0.011972583751529306
+    Attrib dono de    -1.0985091117478187
+    Attrib morador de    -0.8389157084317712
+    Attrib por Tiago_Rech    -0.019216101792362873
+    Attrib prefeitura de    -0.39248438431361893
+    Attrib parte de    -1.4073336201543774
+    Attrib rede de    -1.0663622325331692
+    Attrib de lixo    -1.0680697473057033
+    Attrib baldo @diariogaucho    0.4436120171688348
+    Attrib auxiliar de    -0.47560287337768
+    Attrib de trabalho    0.13985287812926558
+    Attrib tÃ©cnico em    -0.3608758407089447
+    Attrib de R$    0.9668874971969517
+    Attrib vaga em    -0.520838680321501
+    Attrib curso de    0.6566385185398115
+    Attrib Auxiliar de    0.38573292950927907
+    Attrib Ã¡rea de    -1.2787144879425996
+Class Esporte
+    Input
+    Node 0
+Class Policia
+    Input
+    Node 1
+Class ProblemaNosso
+    Input
+    Node 2
+Class EspacoTrabalhador
+    Input
+    Node 3
+
+
+Time taken to build model: 2.09 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          39               70.9091 %
+Incorrectly Classified Instances        16               29.0909 %
+Kappa statistic                          0.6059
+Mean absolute error                      0.1512
+Root mean squared error                  0.3556
+Relative absolute error                 39.5282 %
+Root relative squared error             80.0813 %
+Total Number of Instances               55     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,023    0,917      1,000    0,957      0,946    1,000     1,000     Esporte
+                 0,455    0,136    0,455      0,455    0,455      0,318    0,782     0,546     Policia
+                 0,591    0,121    0,765      0,591    0,667      0,498    0,854     0,801     ProblemaNosso
+                 0,909    0,114    0,667      0,909    0,769      0,714    0,931     0,790     EspacoTrabalhador
+Weighted Avg.    0,709    0,103    0,713      0,709    0,703      0,595    0,884     0,788     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 11  0  0  0 |  a = Esporte
+  0  5  3  3 |  b = Policia
+  1  6 13  2 |  c = ProblemaNosso
+  0  0  1 10 |  d = EspacoTrabalhador
+

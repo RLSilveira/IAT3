@@ -1,0 +1,129 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomial 
+Relation:     Arquivo
+Instances:    294
+Attributes:   37
+              categoria de base
+              a respeito de
+              em relaÃ§Ã£o a
+              final de semana
+              Fome de gol
+              departamento de futebol
+              com exceÃ§Ã£o de
+              em busca de
+              jogo de ontem
+              dia a dia
+              trÃ¡fico de droga
+              boca de fumo
+              a tiro em
+              por volta de
+              em frente a
+              tentativa de homicÃ­dio
+              ponto de trÃ¡fico
+              de acordo com
+              de droga em
+              pedra de crack
+              dono de casa
+              rede de esgoto
+              assessoria de imprensa
+              em funÃ§Ã£o de
+              prefeitura de ViamÃ£o
+              em dia de
+              dia de chuva
+              por meio de
+              por espaÃ§o de
+              mercado de trabalho
+              carteira de trabalho
+              curso gratuito de
+              pessoa com deficiÃªncia
+              comprovante de residÃªncia
+              auxiliar de produÃ§Ã£o
+              de serviÃ§o geral
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+The independent probability of a class
+--------------------------------------
+Esporte	0.28523489932885904
+Policia	0.2651006711409396
+ProblemaNosso	0.20469798657718122
+EspacoTrabalhador	0.24496644295302014
+
+The probability of a word given the class
+-----------------------------------------
+	Esporte	Policia	ProblemaNosso	EspacoTrabalhador	
+categoria de base	0.025	0.008695652173913042	0.007092198581560283	0.010416666666666668	
+a respeito de	0.075	0.008695652173913042	0.007092198581560283	0.010416666666666668	
+em relaÃ§Ã£o a	0.12500000000000003	0.043478260869565216	0.021276595744680854	0.03125	
+final de semana	0.075	0.034782608695652174	0.014184397163120567	0.041666666666666664	
+Fome de gol	0.0625	0.008695652173913042	0.007092198581560283	0.010416666666666668	
+departamento de futebol	0.05000000000000001	0.008695652173913042	0.007092198581560283	0.010416666666666668	
+com exceÃ§Ã£o de	0.03749999999999999	0.008695652173913042	0.007092198581560283	0.010416666666666668	
+em busca de	0.0625	0.017391304347826087	0.028368794326241134	0.041666666666666664	
+jogo de ontem	0.0625	0.008695652173913042	0.007092198581560283	0.010416666666666668	
+dia a dia	0.0625	0.017391304347826087	0.035460992907801414	0.02083333333333333	
+trÃ¡fico de droga	0.012500000000000006	0.08695652173913045	0.007092198581560283	0.010416666666666668	
+boca de fumo	0.012500000000000006	0.043478260869565216	0.007092198581560283	0.010416666666666668	
+a tiro em	0.012500000000000006	0.0782608695652174	0.007092198581560283	0.010416666666666668	
+por volta de	0.012500000000000006	0.09565217391304348	0.014184397163120567	0.010416666666666668	
+em frente a	0.012500000000000006	0.06956521739130436	0.07801418439716312	0.02083333333333333	
+tentativa de homicÃ­dio	0.012500000000000006	0.06086956521739131	0.007092198581560283	0.010416666666666668	
+ponto de trÃ¡fico	0.012500000000000006	0.043478260869565216	0.007092198581560283	0.010416666666666668	
+de acordo com	0.03749999999999999	0.08695652173913045	0.06382978723404255	0.07291666666666669	
+de droga em	0.012500000000000006	0.043478260869565216	0.007092198581560283	0.010416666666666668	
+pedra de crack	0.012500000000000006	0.043478260869565216	0.007092198581560283	0.010416666666666668	
+dono de casa	0.012500000000000006	0.034782608695652174	0.16312056737588654	0.010416666666666668	
+rede de esgoto	0.012500000000000006	0.008695652173913042	0.07092198581560284	0.010416666666666668	
+assessoria de imprensa	0.012500000000000006	0.017391304347826087	0.09219858156028367	0.010416666666666668	
+em funÃ§Ã£o de	0.025	0.008695652173913042	0.04964539007092199	0.02083333333333333	
+prefeitura de ViamÃ£o	0.012500000000000006	0.008695652173913042	0.035460992907801414	0.010416666666666668	
+em dia de	0.012500000000000006	0.008695652173913042	0.056737588652482275	0.010416666666666668	
+dia de chuva	0.012500000000000006	0.008695652173913042	0.04964539007092199	0.010416666666666668	
+por meio de	0.012500000000000006	0.017391304347826087	0.06382978723404255	0.0625	
+por espaÃ§o de	0.012500000000000006	0.008695652173913042	0.007092198581560283	0.09374999999999999	
+mercado de trabalho	0.012500000000000006	0.008695652173913042	0.007092198581560283	0.0625	
+carteira de trabalho	0.012500000000000006	0.008695652173913042	0.007092198581560283	0.08333333333333333	
+curso gratuito de	0.012500000000000006	0.008695652173913042	0.007092198581560283	0.07291666666666669	
+pessoa com deficiÃªncia	0.012500000000000006	0.008695652173913042	0.014184397163120567	0.041666666666666664	
+comprovante de residÃªncia	0.012500000000000006	0.008695652173913042	0.007092198581560283	0.05208333333333335	
+auxiliar de produÃ§Ã£o	0.012500000000000006	0.008695652173913042	0.007092198581560283	0.02083333333333333	
+de serviÃ§o geral	0.012500000000000006	0.008695652173913042	0.014184397163120567	0.05208333333333335	
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          30               68.1818 %
+Incorrectly Classified Instances        14               31.8182 %
+Kappa statistic                          0.5758
+Mean absolute error                      0.2557
+Root mean squared error                  0.3367
+Relative absolute error                 68.1755 %
+Root relative squared error             77.5778 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,909    0,303    0,500      0,909    0,645      0,527    0,866     0,631     Esporte
+                 0,636    0,091    0,700      0,636    0,667      0,564    0,893     0,773     Policia
+                 0,636    0,000    1,000      0,636    0,778      0,753    0,792     0,749     ProblemaNosso
+                 0,545    0,030    0,857      0,545    0,667      0,610    0,873     0,725     EspacoTrabalhador
+Weighted Avg.    0,682    0,106    0,764      0,682    0,689      0,613    0,856     0,720     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 10  1  0  0 |  a = Esporte
+  4  7  0  0 |  b = Policia
+  1  2  7  1 |  c = ProblemaNosso
+  5  0  0  6 |  d = EspacoTrabalhador
+

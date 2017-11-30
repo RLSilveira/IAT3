@@ -1,0 +1,75 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Arquivo
+Instances:    294
+Attributes:   28
+              nÃ£o
+              br
+              @diariogaucho
+              time
+              jogo
+              Inter
+              mais
+              tÃ©cnico
+              GrÃªmio
+              como
+              ano
+              casa
+              homem
+              trÃ¡fico
+              homicÃ­dio
+              morador
+              jÃ¡
+              prefeitura
+              @diÃ¡riogaÃºcho
+              local
+              problema
+              vaga
+              curso
+              R$
+              categoria
+              dia
+              trabalho
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.04 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          41               93.1818 %
+Incorrectly Classified Instances         3                6.8182 %
+Kappa statistic                          0.9091
+Mean absolute error                      0.055 
+Root mean squared error                  0.203 
+Relative absolute error                 14.6797 %
+Root relative squared error             46.7648 %
+Total Number of Instances               44     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Esporte
+                 1,000    0,030    0,917      1,000    0,957      0,943    0,990     0,951     Policia
+                 0,909    0,030    0,909      0,909    0,909      0,879    0,916     0,857     ProblemaNosso
+                 0,818    0,030    0,900      0,818    0,857      0,814    0,877     0,776     EspacoTrabalhador
+Weighted Avg.    0,932    0,023    0,931      0,932    0,931      0,909    0,946     0,896     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 11  0  0  0 |  a = Esporte
+  0 11  0  0 |  b = Policia
+  0  0 10  1 |  c = ProblemaNosso
+  0  1  1  9 |  d = EspacoTrabalhador

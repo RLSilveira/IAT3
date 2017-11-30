@@ -1,0 +1,86 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Arquivo
+Instances:    283
+Attributes:   38
+              braga @diariogaucho
+              cacalo @diariogaucho
+              Copa de
+              time de
+              jogo de
+              nÃ£o poder
+              de futebol
+              final de
+              depois de
+              antes de
+              De_acordo com
+              casa de
+              em Porto_Alegre
+              tiro em
+              de droga
+              noite de
+              de homicÃ­dio
+              manhÃ£ de
+              tarde de
+              de casa
+              munhoz @diariogaucho
+              dono de
+              morador de
+              por Tiago_Rech
+              prefeitura de
+              parte de
+              rede de
+              de lixo
+              baldo @diariogaucho
+              auxiliar de
+              de trabalho
+              tÃ©cnico em
+              de R$
+              vaga em
+              curso de
+              Auxiliar de
+              Ã¡rea de
+              classe
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.04 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          35               63.6364 %
+Incorrectly Classified Instances        20               36.3636 %
+Kappa statistic                          0.5146
+Mean absolute error                      0.2025
+Root mean squared error                  0.4011
+Relative absolute error                 52.9405 %
+Root relative squared error             90.3275 %
+Total Number of Instances               55     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Esporte
+                 0,455    0,182    0,385      0,455    0,417      0,257    0,616     0,373     Policia
+                 0,455    0,121    0,714      0,455    0,556      0,375    0,747     0,595     ProblemaNosso
+                 0,818    0,182    0,529      0,818    0,643      0,551    0,861     0,657     EspacoTrabalhador
+Weighted Avg.    0,636    0,121    0,669      0,636    0,634      0,511    0,794     0,644     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 11  0  0  0 |  a = Esporte
+  0  5  3  3 |  b = Policia
+  0  7 10  5 |  c = ProblemaNosso
+  0  1  1  9 |  d = EspacoTrabalhador
+
