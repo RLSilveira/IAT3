@@ -14,7 +14,7 @@ bagOfWork = {}
 
 topNwords = 20
 nTextForBagOfWork = 2
-nGrama = 1
+nGrama = 3
 
 textsESPORTE = []
 textsPOLICIA = []
@@ -136,10 +136,10 @@ def generateARFFFile():
     file.write("@relation Arquivo\n")
 
     for p in bagOfWork:
-        file.write("@atribute ""{}"" integer\n".format(p))
+        file.write("@attribute ""{}"" integer\n".format(p))
 
     file.write("@atribute classe {{{},{},{},{}}}\n".format(*categories))
-    file.write("@data Arquivo\n")
+    file.write("@data\n")
 
     for title in bagOfWorkTextUse:
         for text in bagOfWorkTextUse[title]:
@@ -161,15 +161,29 @@ def main():
     textsPROBLEMAENOSSO = GetTexts("Textos/CORPUS DG SEU PROBLEMA E NOSSO - final.txt")
     textsESPACOTRABALHADOR = GetTexts("Textos/CORPUS DG ESPACO DO TRABALHADOR - final.txt")
 
-    for i in range(0, nTextForBagOfWork):
-        buidBagOfWork("Esporte", textsESPORTE[random.randrange(0, len(textsESPORTE)-1)])
-        buidBagOfWork("Policia", textsPOLICIA[random.randrange(0, len(textsPOLICIA)-1)])
-        buidBagOfWork("ProblemaNosso", textsPROBLEMAENOSSO[random.randrange(0, len(textsPROBLEMAENOSSO)-1)])
-        buidBagOfWork("EspacoTrabalhador", textsESPACOTRABALHADOR[random.randrange(0, len(textsESPACOTRABALHADOR)-1)])
+    # for i in range(0, nTextForBagOfWork):
+    #     buidBagOfWork("Esporte", textsESPORTE[random.randrange(0, len(textsESPORTE)-1)])
+    #     buidBagOfWork("Policia", textsPOLICIA[random.randrange(0, len(textsPOLICIA)-1)])
+    #     buidBagOfWork("ProblemaNosso", textsPROBLEMAENOSSO[random.randrange(0, len(textsPROBLEMAENOSSO)-1)])
+    #     buidBagOfWork("EspacoTrabalhador", textsESPACOTRABALHADOR[random.randrange(0, len(textsESPACOTRABALHADOR)-1)])
+
+    for text in textsESPORTE:
+        buidBagOfWork("Esporte", text)
+
+    for text in textsPOLICIA:
+        buidBagOfWork("Policia", text)
+
+    for text in textsPROBLEMAENOSSO:
+        buidBagOfWork("ProblemaNosso", text)
+
+    for text in textsESPACOTRABALHADOR:
+        buidBagOfWork("EspacoTrabalhador", text)
 
     extractBagOfWork(10)
 
     generateARFFFile()
+
+    print(bagOfWorkTextUse)
 
     # https: // github.com / gpassero / cogroo4py
     # print("\n\tCaetano Almeida\n\tBruno xxx\n\tMarlon Fontoura\n\tPedro Fraga\n\tRodrigo Leão")
